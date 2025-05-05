@@ -148,7 +148,7 @@ LocFriendlyName="Napalm-X"
 LocFlyOverText="Napalm-X"
 LocLongDescription="Dein Flammenwerfer kann Feinde jetzt in Panik versetzen."
 LocHelpText="Napalm-X"
-LocPromotionPopupText="<Bullet/> Dein Flammenwerfer kann Feinde jetzt in Panik versetzen. Feindliche Einheiten müssen eine Willensprüfung bestehen, um negativen Effekten zu entgehen.<br/><Bullet/> Die Chance auf Panik beträgt <Ability:NAPALM_X_BASEVALUE> % + <Ability:GAUNTLET_CONVENTIONAL_OPPOSED_STAT_STRENTH>/<Ability:GAUNTLET_MAG_OPPOSED_STAT_STRENTH>/<Ability:GAUNTLET_BEAM_OPPOSED_STAT_STRENTH> %, abhängig von der Technologiestufe des Handschuhs und dem Willen des Feindes"
+LocPromotionPopupText="<Bullet/> Dein Flammenwerfer kann Feinde jetzt in Panik versetzen. Feindliche Einheiten müssen eine Willensprüfung bestehen, um negativen Effekten zu entgehen.<br/><Bullet/> Die Chance auf Panik beträgt <Ability:NAPALM_X_BASEVALUE>% + <Ability:GAUNTLET_CONVENTIONAL_OPPOSED_STAT_STRENTH>/<Ability:GAUNTLET_MAG_OPPOSED_STAT_STRENTH>/<Ability:GAUNTLET_BEAM_OPPOSED_STAT_STRENTH>%, abhängig von der Technologiestufe des Handschuhs und dem Willen des Feindes"
 
 [PhosphorusPassive X2AbilityTemplate]
 LocFriendlyName="Phosphor"
@@ -301,15 +301,15 @@ LocPromotionPopupText="<Bullet/> Handschuhangriffe sowie durch Handschuhwaffen e
 LocFriendlyName="Erschütterungsrakete"
 LocFlyOverText="Erschütterungsrakete"
 LocLongDescription="Feuere eine Spezialrakete ab, die geringen Schaden verursacht und organische Feinde im Wirkungsbereich beeinträchtigt."
-LocHelpText="Feuert eine Rakete, die organische Feinde immer desorientiert und mit <Ability:CONCUSSION_ROCKET_STUN_CHANCE > % Wahrscheinlichkeit betäubt. <Ability:ROCKETSCATTER/>"
-LocPromotionPopupText="<Bullet/> Verursacht 2/3/4 Schaden, abhängig von der Gauntlet-Stufe.<br/><Bullet/> Desorientiert organische Ziele immer. Zusätzlich besteht eine <Ability:CONCUSSION_ROCKET_STUN_CHANCE > % Chance auf Betäubung.<br/><Bullet/> Erfordert eine Aktion und beendet den Zug.<br/><Bullet/> Einmal pro Einsatz einsetzbar.<br/>"
+LocHelpText="Feuert eine Rakete, die organische Feinde immer desorientiert und mit <Ability:CONCUSSION_ROCKET_STUN_CHANCE >% Wahrscheinlichkeit betäubt. <Ability:ROCKETSCATTER/>"
+LocPromotionPopupText="<Bullet/> Verursacht 2/3/4 Schaden, abhängig von der Gauntlet-Stufe.<br/><Bullet/> Desorientiert organische Ziele immer. Zusätzlich besteht eine <Ability:CONCUSSION_ROCKET_STUN_CHANCE >% Chance auf Betäubung.<br/><Bullet/> Erfordert eine Aktion und beendet den Zug.<br/><Bullet/> Einmal pro Einsatz einsetzbar.<br/>"
 
 [BlasterConcussionRocket X2AbilityTemplate]
 LocFriendlyName="Erschütterungsrakete"
 LocFlyOverText="Erschütterungsrakete"
 LocLongDescription="Feuere eine Spezialrakete ab, die geringen Schaden verursacht und organische Feinde im Wirkungsbereich beeinträchtigt."
-LocHelpText="Feuert eine Rakete, die organische Feinde immer desorientiert und mit <Ability:CONCUSSION_ROCKET_STUN_CHANCE > % Wahrscheinlichkeit betäubt. <Ability:ROCKETSCATTER/>"
-LocPromotionPopupText="<Bullet/> Verursacht 2/3/4 Schaden.<br/><Bullet/> Desorientiert organische Ziele immer. Zusätzlich besteht eine <Ability:CONCUSSION_ROCKET_STUN_CHANCE > % Chance auf Betäubung.<br/><Bullet/> Erfordert eine Aktion und beendet den Zug.<br/><Bullet/> Einmal pro Einsatz einsetzbar.<br/>"
+LocHelpText="Feuert eine Rakete, die organische Feinde immer desorientiert und mit <Ability:CONCUSSION_ROCKET_STUN_CHANCE >% Wahrscheinlichkeit betäubt. <Ability:ROCKETSCATTER/>"
+LocPromotionPopupText="<Bullet/> Verursacht 2/3/4 Schaden.<br/><Bullet/> Desorientiert organische Ziele immer. Zusätzlich besteht eine <Ability:CONCUSSION_ROCKET_STUN_CHANCE >% Chance auf Betäubung.<br/><Bullet/> Erfordert eine Aktion und beendet den Zug.<br/><Bullet/> Einmal pro Einsatz einsetzbar.<br/>"
 
 [CoupDeGrace X2AbilityTemplate]
 LocFriendlyName="Gnadenstoß"
@@ -466,10 +466,10 @@ LocFlyOverText="Geistergranate"
 
 [BiggestBooms_LW X2AbilityTemplate]
 LocFriendlyName="Megakracher"
-LocLongDescription="Granaten und Standardraketen können kritischen Schaden anrichten (<Ability:BIGGESTBOOMSCHANCE/> % Chance auf +<Ability:BIGGESTBOOMSDAMAGE/> Schaden)."
+LocLongDescription="Granaten und Standardraketen können kritischen Schaden anrichten (<Ability:BIGGESTBOOMSCHANCE/>% Chance auf +<Ability:BIGGESTBOOMSDAMAGE/> Schaden)."
 LocHelpText="Granaten, Standardraketen und Mikroraketen können kritischen Schaden anrichten."
 LocFlyOverText="Megakracher"
-LocPromotionPopupText="<Bullet/> Granaten, Standardraketen und MECH-Mikroraketen können kritischen Schaden anrichten (<Ability:BIGGESTBOOMSCHANCE/> % Chance auf +<Ability:BIGGESTBOOMSDAMAGE/> Schaden).<br/><Bullet/> Die Chance auf kritische Treffer ist nicht von anderen Modifikatoren betroffen.<br/><Bullet/> Gilt nicht für nichttödliche Granaten oder die Fähigkeiten 'Erschütterungsrakete' oder 'Bunkerknacker'.<br/><Bullet/> Kritische Treffer mit Granaten erhöhen andauernden Schaden wie etwa von Feuer um +1."
+LocPromotionPopupText="<Bullet/> Granaten, Standardraketen und MECH-Mikroraketen können kritischen Schaden anrichten (<Ability:BIGGESTBOOMSCHANCE/>% Chance auf +<Ability:BIGGESTBOOMSDAMAGE/> Schaden).<br/><Bullet/> Die Chance auf kritische Treffer ist nicht von anderen Modifikatoren betroffen.<br/><Bullet/> Gilt nicht für nichttödliche Granaten oder die Fähigkeiten 'Erschütterungsrakete' oder 'Bunkerknacker'.<br/><Bullet/> Kritische Treffer mit Granaten erhöhen andauernden Schaden wie etwa von Feuer um +1."
 
 [Shellshock_LW X2AbilityTemplate]
 LocFriendlyName="Schockwirkung"
@@ -597,7 +597,7 @@ LocFriendlyName="High-Definition-Holo"
 LocLongDescription="Deine durch Holo-Zielen markierte Gegner erleiden häufiger kritische Treffer."
 LocHelpText="Deine durch Holo-Zielen markierte Gegner erleiden häufiger kritische Treffer."
 LocFlyOverText="High-Definition-Holo"
-LocPromotionPopupText="<Bullet/> Der kritische Trefferbonus beträgt +<Ability:HDHOLO_CV_CRIT_BONUS_LW/> % für die einfache Holo-Zielvorrichtung und erhöht sich mit fortschrittlichen Holo-Zielvorrichtungen auf +<Ability:HDHOLO_MG_CRIT_BONUS_LW/> % und +<Ability:HDHOLO_BM_CRIT_BONUS_LW/> %.<br/>"
+LocPromotionPopupText="<Bullet/> Der kritische Trefferbonus beträgt +<Ability:HDHOLO_CV_CRIT_BONUS_LW/>% für die einfache Holo-Zielvorrichtung und erhöht sich mit fortschrittlichen Holo-Zielvorrichtungen auf +<Ability:HDHOLO_MG_CRIT_BONUS_LW/>% und +<Ability:HDHOLO_BM_CRIT_BONUS_LW/>%.<br/>"
 
 [IndependentTracking X2AbilityTemplate]
 LocFriendlyName="Unabhängige Zielerfassung"
@@ -660,7 +660,7 @@ LocFriendlyName="Betäubungsschütze"
 LocLongDescription="Dein Pulsbogen hat jetzt einen Zielsicherheitsbonus."
 LocHelpText="Dein Pulsbogen hat einen Zielsicherheitsbonus."
 LocFlyOverText="Betäubungsschütze"
-LocPromotionPopupText="<Bullet/> Der Bonus beginnt bei +Ability:STUNGUNNER_BONUS_CV_LW/> % und erhöht sich mit besserer Pulsbogen-Technologie bis zu einem Maximum von +<Ability:STUNGUNNER_BONUS_BM_LW/> %."
+LocPromotionPopupText="<Bullet/> Der Bonus beginnt bei +Ability:STUNGUNNER_BONUS_CV_LW/>% und erhöht sich mit besserer Pulsbogen-Technologie bis zu einem Maximum von +<Ability:STUNGUNNER_BONUS_BM_LW/>%."
 
 [StreetSweeper2 X2AbilityTemplate]
 LocFriendlyName="Straßenfeger"
@@ -1327,15 +1327,15 @@ TinySummary="Reduziert die Infiltrationszeit bei Einsätzen."
 LootTooltip="Diese Waffenverbesserung reduziert die Zeit, die der Soldat bei einem Einsatz zum Infiltrieren benötigt. Sie reduziert außerdem das Schussgeräusch."
 
 [CritUpgrade_Bsc X2WeaponUpgradeTemplate]
-BriefSummary="Erhöht kritische Trefferchance um +<Ability:CRITINCREASE/> %."
+BriefSummary="Erhöht kritische Trefferchance um +<Ability:CRITINCREASE/>%."
 
 [CritUpgrade_Adv X2WeaponUpgradeTemplate]
-BriefSummary="Erhöht kritische Trefferchance um +<Ability:CRITINCREASE/> %."
+BriefSummary="Erhöht kritische Trefferchance um +<Ability:CRITINCREASE/>%."
 
 [CritUpgrade_Sup X2WeaponUpgradeTemplate]
 FriendlyName="Überragendes Laservisier"
 FriendlyNamePlural="Überragende Laservisiere"
-BriefSummary="Erhöht kritische Trefferchance um +<Ability:CRITINCREASE/> %."
+BriefSummary="Erhöht kritische Trefferchance um +<Ability:CRITINCREASE/>%."
 
 [ClipSizeUpgrade_Sup X2WeaponUpgradeTemplate]
 FriendlyName="Überragende Magazinerweiterung"
@@ -1366,7 +1366,7 @@ TacticalText="<Bullet/> Erhöht die Gesundheit des Soldaten um 3.\n<Bullet/> Bie
 [Hellweave X2EquipmentTemplate]
 FriendlyName="Höllengewebe-Weste"
 FriendlyNamePlural="Höllengewebe-Weste"
-BriefSummary="Höllengewebe erhöht nichtn nur die Soldatengesundheit um 6, sondern reflektiert darüber hinaus bei jedem feindlichen Nahkampfangriff Schaden und setzt den Angreifer mit einer Chance von <Ability:HELLWEAVEPROCCHANCE/> % in Brand."
+BriefSummary="Höllengewebe erhöht nichtn nur die Soldatengesundheit um 6, sondern reflektiert darüber hinaus bei jedem feindlichen Nahkampfangriff Schaden und setzt den Angreifer mit einer Chance von <Ability:HELLWEAVEPROCCHANCE/>% in Brand."
 TacticalText="<Bullet/> Höllengewebe verursacht nicht nur direkten Schaden bei Nahkampfangreifern, sondern verfügt zudem auch über eine Chance, sie mit den zugehörigen einschränkenden Effekten in Brand zu setzen.\n<Bullet/> Höllengewebe gewährt zudem 6 Trefferpunkte.<br/><Bullet/> Es können immer nur ein Panzerungsobjekt und eine Weste gleichzeitig ausgerüstet sein."
 
 [FireControl25PCS X2EquipmentTemplate]
@@ -4575,7 +4575,7 @@ LocPromotionPopupText="<Bullet/> Sprengzünder hat eine Abklingzeit von <Ability
 
 [BulletShred X2AbilityTemplate]
 LocLongDescription="Ein Rupturschuss gewährt eine um <Ability:RUPTURE_CRIT_BONUS_LW/> erhöhte kritische Trefferchance und sorgt dafür, dass das Ziel einen um +<Ability:RuptureAmount/> erhöhten Schaden durch alle zukünftigen Angriffe nimmt."
-LocHelpText="Ein Rupturschuss gewährt +<Ability:RUPTURE_CRIT_BONUS_LW/> % kritische Trefferchance und sorgt dafür, dass das Ziel erhöhten Schaden durch alle zukünftigen Angriffe nimmt."
+LocHelpText="Ein Rupturschuss gewährt +<Ability:RUPTURE_CRIT_BONUS_LW/>% kritische Trefferchance und sorgt dafür, dass das Ziel erhöhten Schaden durch alle zukünftigen Angriffe nimmt."
 LocPromotionPopupText="<Bullet/> Ruptur benötigt <Ability:SelfAmmoCost/> Munitionspunkte und hat eine Abklingzeit von <Ability:SelfCooldown_LW/> Runden.<br/><Bullet/> Von Ruptur getroffene Ziele erleiden bei jedem Angriff <Ability:RuptureAmount/> Zusatzschaden.<br/>"
 
 [Faceoff X2AbilityTemplate]
@@ -4781,7 +4781,7 @@ LocLongDescription="Erhalte Fokus während der Missionen, der für mächtige Fä
 LocFriendlyName="Reißen"
 LocLongDescription="Nahkampfangriff mit einer Chance, das Ziel zu betäuben oder zu desorientieren. Kann nicht verfehlen. Löst Momentum aus und erzeugt Fokus."
 LocHelpText="Nahkampfangriff mit einer Chance, das Ziel zu betäuben oder zu desorientieren. Löst Momentum aus und erzeugt Fokus."
-LocPromotionPopupText="<Bullet/> Der Einsatz von Reißen ist die primäre Methode des Templers, um Fokus zu generieren.<br/><Bullet/> Nach dem Wirken von Reißen erhält der Templer Momentum, was ihm eine Bewegungsaktion ermöglicht. Setze sie ein, um nach einem Angriff in Deckung zu gelangen.<br/><Bullet/> Reißen hat pro Fokus eine Chance von <Ability:RENDSTUNCHANCE/> %, das Ziel zu betäuben. Betäubte Ziele werden zudem zurückgestoßen.<br/><Bullet/> Reißen hat pro Fokus eine Chance von <Ability:RENDDISORIENTCHANCE/> %, das Ziel zu desorientieren.<br/>"
+LocPromotionPopupText="<Bullet/> Der Einsatz von Reißen ist die primäre Methode des Templers, um Fokus zu generieren.<br/><Bullet/> Nach dem Wirken von Reißen erhält der Templer Momentum, was ihm eine Bewegungsaktion ermöglicht. Setze sie ein, um nach einem Angriff in Deckung zu gelangen.<br/><Bullet/> Reißen hat pro Fokus eine Chance von <Ability:RENDSTUNCHANCE/>%, das Ziel zu betäuben. Betäubte Ziele werden zudem zurückgestoßen.<br/><Bullet/> Reißen hat pro Fokus eine Chance von <Ability:RENDDISORIENTCHANCE/>%, das Ziel zu desorientieren.<br/>"
 
 [Whiplash X2AbilityTemplate]
 LocLongDescription="Greife einen Feind mit einem elektrischen Peitschenhieb an. Verursacht Bonusschaden gegen robotische Einheiten. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
@@ -4801,7 +4801,7 @@ LocPromotionPopupText="<Bullet/> Die Säule hält für eine Anzahl an Runden, di
 [StunStrike X2AbilityTemplate]
 LocLongDescription="Stoße einen Feind mit psionischer Kraft und betäube ihn möglicherweise. Verbraucht 1 Fokus."
 LocHelpText="Stoße einen Feind mit psionischer Kraft und betäube ihn möglicherweise. Verbraucht 1 Fokus."
-LocPromotionPopupText="<Bullet/> Betäubungsangriff hat eine Trefferchance von <Ability:STUNSTRIKEHITCHANCE/> %, die pro Fokusstufe um <Ability:STUNSTRIKEFOCUSHITCHANCE/> % steigt.<br/><Bullet/> Betäubungsangriff erhält pro Fokusstufe eine Chance von <Ability:STUNSTRIKE_STUN_CHANCE/> %, das Ziel zu betäuben.<br/><Bullet/> Betäubungsangriff beendet nicht die Runde des Templers, hat jedoch eine Abklingzeit von <Ability:SelfCooldown_LW/> Runde(n).<br/>"
+LocPromotionPopupText="<Bullet/> Betäubungsangriff hat eine Trefferchance von <Ability:STUNSTRIKEHITCHANCE/>%, die pro Fokusstufe um <Ability:STUNSTRIKEFOCUSHITCHANCE/>% steigt.<br/><Bullet/> Betäubungsangriff erhält pro Fokusstufe eine Chance von <Ability:STUNSTRIKE_STUN_CHANCE/>%, das Ziel zu betäuben.<br/><Bullet/> Betäubungsangriff beendet nicht die Runde des Templers, hat jedoch eine Abklingzeit von <Ability:SelfCooldown_LW/> Runde(n).<br/>"
 
 [BondmateTeamwork X2AbilityTemplate]
 LocHelpText="Gewährt einem Kameraden eine zusätzliche Bewegung. Verfügt über nur eine Ladung, die von den Kameraden geteilt wird."
@@ -4834,10 +4834,10 @@ LocPromotionPopupText="<Bullet/> Gilt nur für die gleiche Runde, in der der Fei
 
 [PaleHorse X2AbilityTemplate]
 LocFriendlyName="Seelenernte"
-LocLongDescription="Gewährt +<Ability:PALE_HORSE_BASE_CRIT/> % kritische Trefferchance. Tödliche Angriffe durch diesen Soldaten gewähren zusätzlich +<Ability:PALE_HORSE_PER_KILL_CRIT/> % kritische Trefferchance bis zu einem Maximum von +<Ability:PALE_HORSE_MAX_CRIT/> %."
-LocHelpText="Gewährt +<Ability:PALE_HORSE_BASE_CRIT/> % kritische Trefferchance. Tödliche Angriffe durch diesen Soldaten gewähren zusätzlich +<Ability:PALE_HORSE_PER_KILL_CRIT/> % kritische Trefferchance bis zu einem Maximum von +<Ability:PALE_HORSE_MAX_CRIT/> %."
+LocLongDescription="Gewährt +<Ability:PALE_HORSE_BASE_CRIT/>% kritische Trefferchance. Tödliche Angriffe durch diesen Soldaten gewähren zusätzlich +<Ability:PALE_HORSE_PER_KILL_CRIT/>% kritische Trefferchance bis zu einem Maximum von +<Ability:PALE_HORSE_MAX_CRIT/>%."
+LocHelpText="Gewährt +<Ability:PALE_HORSE_BASE_CRIT/>% kritische Trefferchance. Tödliche Angriffe durch diesen Soldaten gewähren zusätzlich +<Ability:PALE_HORSE_PER_KILL_CRIT/>% kritische Trefferchance bis zu einem Maximum von +<Ability:PALE_HORSE_MAX_CRIT/>%."
 LocFlyoverText="Seelenernte"
-LocPromotionPopupText="<Bullet/> Der Bonus gilt für Angriffe sowohl mit der Primärwaffe als auch mit der Sekundärwaffe.<br/><Bullet/> Das Maximum von +<Ability:PALE_HORSE_MAX_CRIT/> % kritischer Trefferchance gilt für den durch Abschüsse erzeugten Bonus, also zusätzlich zum Grundbonus von +<Ability:PALE_HORSE_BASE_CRIT/> %."
+LocPromotionPopupText="<Bullet/> Der Bonus gilt für Angriffe sowohl mit der Primärwaffe als auch mit der Sekundärwaffe.<br/><Bullet/> Das Maximum von +<Ability:PALE_HORSE_MAX_CRIT/>% kritischer Trefferchance gilt für den durch Abschüsse erzeugten Bonus, also zusätzlich zum Grundbonus von +<Ability:PALE_HORSE_BASE_CRIT/>%."
 
 [Sting X2AbilityTemplate]
 LocFriendlyName="Tarnschuss"
@@ -4866,8 +4866,8 @@ LocFriendlyName="Spurenlesen"
 LocFlyOverText="Spurenlesen"
 
 [SkirmisherReflex X2AbilityTemplate]
-LocLongDescription="Wenn auf dich geschossen wird, erhältst du in der nächsten Runde eine zusätzliche Aktion. Löst nur einmal pro Runde aus. Die kritische Trefferchance gegen dich ist um <Ability:REFLEX_CRIT_DEF/> % reduziert."
-LocHelpText="Wenn auf dich geschossen wird, erhältst du in der nächsten Runde eine zusätzliche Aktion. Löst nur einmal pro Runde aus. Die kritische Trefferchance gegen dich ist um <Ability:REFLEX_CRIT_DEF/> % reduziert."
+LocLongDescription="Wenn auf dich geschossen wird, erhältst du in der nächsten Runde eine zusätzliche Aktion. Löst nur einmal pro Runde aus. Die kritische Trefferchance gegen dich ist um <Ability:REFLEX_CRIT_DEF/>% reduziert."
+LocHelpText="Wenn auf dich geschossen wird, erhältst du in der nächsten Runde eine zusätzliche Aktion. Löst nur einmal pro Runde aus. Die kritische Trefferchance gegen dich ist um <Ability:REFLEX_CRIT_DEF/>% reduziert."
 LocPromotionPopupText="<Bullet/> Der Kletterhaken macht den Scharmützler zu einem ausgezeichneten Späher und Reflex belohnt die aggressive Positionierung.<br/><Bullet/> Reflex kann nur einmal pro Runde ausgelöst werden.<br/>"
 
 [FullThrottle X2AbilityTemplate]
@@ -4880,7 +4880,7 @@ LocFriendlyName="Verurteilung"
 LocLongDescription="Wenn du unter feindlichen Beschuss gerätst, besteht beim Feind die Chance, dass er in Panik gerät. Je größer dein Wille, desto größer die Chance auf Panik."
 LocHelpText="Wenn du unter feindlichen Beschuss gerätst, besteht beim Feind die Chance, dass er in Panik gerät. Je größer dein Wille, desto größer die Chance auf Panik."
 LocFlyOverText="Verurteilung"
-LocPromotionPopupText="<Bullet/> Verurteilung kann durch Nahkampf- und Wirkungsbereichsangriffe ausgelöst werden.<br/><Bullet/> Verurteilung wird nicht durch Feuerschutz-Beschuss ausgelöst.<br/><Bullet/> Die Chance auf Panik beträgt <Ability:JUDGEMENT_LW_APPLYCHANCE/> % und ist abhängig von den Willenswerten von dir und dem Ziel.<br/><Bullet/> Verurteilung eignet sich am besten für Einheiten mit hohem Willenswert.<br/>"
+LocPromotionPopupText="<Bullet/> Verurteilung kann durch Nahkampf- und Wirkungsbereichsangriffe ausgelöst werden.<br/><Bullet/> Verurteilung wird nicht durch Feuerschutz-Beschuss ausgelöst.<br/><Bullet/> Die Chance auf Panik beträgt <Ability:JUDGEMENT_LW_APPLYCHANCE/>% und ist abhängig von den Willenswerten von dir und dem Ziel.<br/><Bullet/> Verurteilung eignet sich am besten für Einheiten mit hohem Willenswert.<br/>"
 
 [ManualOverride_LW X2AbilityTemplate]
 LocFriendlyName="Manuelle Überbrückung
@@ -4898,7 +4898,7 @@ LocFriendlyName="Streifschüsse"
 LocFlyOverText="Streifschüsse"
 LocLongDescription="Fehlschüsse mit deiner Autopistole erhalten eine zusätzliche Chance, das Ziel zu streifen."
 LocHelpText="Fehlschüsse können Streifschüsse werden."
-LocPromotionPopupText="<Bullet/> Fehlschüsse mit der Autopistole erhalten eine generelle Chance von <Ability:GRAZING_FIRE_SUCCESS_CHANCE> %, das Ziel zu streifen.<br/><Bullet/> Dieser Effekt wird nach der normalen Trefferberechnung angewendet.<br/><Bullet/> Ziele mit einem Ausweichwert ziehen diesen von der Streifchance ab."
+LocPromotionPopupText="<Bullet/> Fehlschüsse mit der Autopistole erhalten eine generelle Chance von <Ability:GRAZING_FIRE_SUCCESS_CHANCE>%, das Ziel zu streifen.<br/><Bullet/> Dieser Effekt wird nach der normalen Trefferberechnung angewendet.<br/><Bullet/> Ziele mit einem Ausweichwert ziehen diesen von der Streifchance ab."
 
 [TemplarFleche X2AbilityTemplate]
 LocFriendlyName="Flèche"
@@ -4961,32 +4961,32 @@ LocFlyOverText="Waffe sabotieren"
 
 [ShieldAllyM1 X2AbilityTemplate]
 LocFriendlyName="Größter Krieger des Hexenmeisters"
-LocHelpText="Gewährt einem Verbündeten einen Schild sowie einen Bonus auf Zielgenauigkeit, kritische Trefferchance, Wille und Psi-Kraft. Solange der Verbündete am Leben ist, wird der Schaden gegen den Hexer um <Ability:SHIELD_ALLY_PCT_DR> % reduziert. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
-LocLongDescription="Gewährt einem Verbündeten einen Schild sowie einen Bonus auf Zielgenauigkeit, kritische Trefferchance, Wille und Psi-Kraft. Solange der Verbündete am Leben ist, wird der Schaden gegen den Hexer um <Ability:SHIELD_ALLY_PCT_DR> % reduziert. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
+LocHelpText="Gewährt einem Verbündeten einen Schild sowie einen Bonus auf Zielgenauigkeit, kritische Trefferchance, Wille und Psi-Kraft. Solange der Verbündete am Leben ist, wird der Schaden gegen den Hexer um <Ability:SHIELD_ALLY_PCT_DR>% reduziert. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
+LocLongDescription="Gewährt einem Verbündeten einen Schild sowie einen Bonus auf Zielgenauigkeit, kritische Trefferchance, Wille und Psi-Kraft. Solange der Verbündete am Leben ist, wird der Schaden gegen den Hexer um <Ability:SHIELD_ALLY_PCT_DR>% reduziert. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
 LocFlyOverText="Größter Krieger des Hexenmeisters"
 
 [ShieldAllyM2 X2AbilityTemplate]
 LocFriendlyName="Größter Krieger des Hexenmeisters"
-LocHelpText="Gewährt einem Verbündeten einen Schild sowie einen Bonus auf Zielgenauigkeit, kritische Trefferchance, Wille und Psi-Kraft. Solange der Verbündete am Leben ist, wird der Schaden gegen den Hexer um <Ability:SHIELD_ALLY_PCT_DR> % reduziert. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
-LocLongDescription="Gewährt einem Verbündeten einen Schild sowie einen Bonus auf Zielgenauigkeit, kritische Trefferchance, Wille und Psi-Kraft. Solange der Verbündete am Leben ist, wird der Schaden gegen den Hexer um <Ability:SHIELD_ALLY_PCT_DR> % reduziert. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
+LocHelpText="Gewährt einem Verbündeten einen Schild sowie einen Bonus auf Zielgenauigkeit, kritische Trefferchance, Wille und Psi-Kraft. Solange der Verbündete am Leben ist, wird der Schaden gegen den Hexer um <Ability:SHIELD_ALLY_PCT_DR>% reduziert. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
+LocLongDescription="Gewährt einem Verbündeten einen Schild sowie einen Bonus auf Zielgenauigkeit, kritische Trefferchance, Wille und Psi-Kraft. Solange der Verbündete am Leben ist, wird der Schaden gegen den Hexer um <Ability:SHIELD_ALLY_PCT_DR>% reduziert. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
 LocFlyOverText="Größter Krieger des Hexenmeisters"
 
 [ShieldAllyM3 X2AbilityTemplate]
 LocFriendlyName="Größter Krieger des Hexenmeisters"
-LocHelpText="Gewährt einem Verbündeten einen Schild sowie einen Bonus auf Zielgenauigkeit, kritische Trefferchance, Wille und Psi-Kraft. Solange der Verbündete am Leben ist, wird der Schaden gegen den Hexer um <Ability:SHIELD_ALLY_PCT_DR> % reduziert. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
-LocLongDescription="Gewährt einem Verbündeten einen Schild sowie einen Bonus auf Zielgenauigkeit, kritische Trefferchance, Wille und Psi-Kraft. Solange der Verbündete am Leben ist, wird der Schaden gegen den Hexer um <Ability:SHIELD_ALLY_PCT_DR> % reduziert. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
+LocHelpText="Gewährt einem Verbündeten einen Schild sowie einen Bonus auf Zielgenauigkeit, kritische Trefferchance, Wille und Psi-Kraft. Solange der Verbündete am Leben ist, wird der Schaden gegen den Hexer um <Ability:SHIELD_ALLY_PCT_DR>% reduziert. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
+LocLongDescription="Gewährt einem Verbündeten einen Schild sowie einen Bonus auf Zielgenauigkeit, kritische Trefferchance, Wille und Psi-Kraft. Solange der Verbündete am Leben ist, wird der Schaden gegen den Hexer um <Ability:SHIELD_ALLY_PCT_DR>% reduziert. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
 LocFlyOverText="Größter Krieger des Hexenmeisters"
 
 [ShieldAllyM4 X2AbilityTemplate]
 LocFriendlyName="Größter Krieger des Hexenmeisters"
-LocHelpText="Gewährt einem Verbündeten einen Schild sowie einen Bonus auf Zielgenauigkeit, kritische Trefferchance, Wille und Psi-Kraft. Solange der Verbündete am Leben ist, wird der Schaden gegen den Hexer um <Ability:SHIELD_ALLY_PCT_DR> % reduziert. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
-LocLongDescription="Gewährt einem Verbündeten einen Schild sowie einen Bonus auf Zielgenauigkeit, kritische Trefferchance, Wille und Psi-Kraft. Solange der Verbündete am Leben ist, wird der Schaden gegen den Hexer um <Ability:SHIELD_ALLY_PCT_DR> % reduziert. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
+LocHelpText="Gewährt einem Verbündeten einen Schild sowie einen Bonus auf Zielgenauigkeit, kritische Trefferchance, Wille und Psi-Kraft. Solange der Verbündete am Leben ist, wird der Schaden gegen den Hexer um <Ability:SHIELD_ALLY_PCT_DR>% reduziert. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
+LocLongDescription="Gewährt einem Verbündeten einen Schild sowie einen Bonus auf Zielgenauigkeit, kritische Trefferchance, Wille und Psi-Kraft. Solange der Verbündete am Leben ist, wird der Schaden gegen den Hexer um <Ability:SHIELD_ALLY_PCT_DR>% reduziert. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
 LocFlyOverText="Größter Krieger des Hexenmeisters"
 
 [ShieldAllyM5 X2AbilityTemplate]
 LocFriendlyName="Größter Krieger des Hexenmeisters"
-LocHelpText="Gewährt einem Verbündeten einen Schild sowie einen Bonus auf Zielgenauigkeit, kritische Trefferchance, Wille und Psi-Kraft. Solange der Verbündete am Leben ist, wird der Schaden gegen den Hexer um <Ability:SHIELD_ALLY_PCT_DR> % reduziert. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
-LocLongDescription="Gewährt einem Verbündeten einen Schild sowie einen Bonus auf Zielgenauigkeit, kritische Trefferchance, Wille und Psi-Kraft. Solange der Verbündete am Leben ist, wird der Schaden gegen den Hexer um <Ability:SHIELD_ALLY_PCT_DR> % reduziert. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
+LocHelpText="Gewährt einem Verbündeten einen Schild sowie einen Bonus auf Zielgenauigkeit, kritische Trefferchance, Wille und Psi-Kraft. Solange der Verbündete am Leben ist, wird der Schaden gegen den Hexer um <Ability:SHIELD_ALLY_PCT_DR>% reduziert. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
+LocLongDescription="Gewährt einem Verbündeten einen Schild sowie einen Bonus auf Zielgenauigkeit, kritische Trefferchance, Wille und Psi-Kraft. Solange der Verbündete am Leben ist, wird der Schaden gegen den Hexer um <Ability:SHIELD_ALLY_PCT_DR>% reduziert. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
 LocFlyOverText="Größter Krieger des Hexenmeisters"
 
 [PsiMindControl X2AbilityTemplate]
@@ -5469,9 +5469,9 @@ LocPromotionPopupText="<Bullet/> In Deckung stellt bei Aktivierung <Ability:LICK
 [Impulse_LW X2AbilityTemplate]
 LocFriendlyName="Starker Impuls"
 LocFlyOverText="Starker Impuls"
-LocLongDescription="Deine Fernkampfangriffe erhalten +<Ability:IMPULSE_AIM_BONUS/> % Zielgenauigkeit und +<Ability:IMPULSE_CRIT_BONUS/> % kritische Trefferchance, wenn du dich diese Runde bewegt hast."
-LocHelpText="Deine Fernkampfangriffe erhalten +<Ability:IMPULSE_AIM_BONUS/> % Zielgenauigkeit und +<Ability:IMPULSE_CRIT_BONUS/> % kritische Trefferchance, wenn du dich diese Runde bewegt hast."
-LocPromotionPopupText="<Bullet/> Deine Fernkampfangriffe erhalten +<Ability:IMPULSE_AIM_BONUS/> % Zielgenauigkeit und +<Ability:IMPULSE_CRIT_BONUS/> % kritische Trefferchance, wenn du dich zuvor in dieser Runde bewegt hast.<br/>"
+LocLongDescription="Deine Fernkampfangriffe erhalten +<Ability:IMPULSE_AIM_BONUS/>% Zielgenauigkeit und +<Ability:IMPULSE_CRIT_BONUS/>% kritische Trefferchance, wenn du dich diese Runde bewegt hast."
+LocHelpText="Deine Fernkampfangriffe erhalten +<Ability:IMPULSE_AIM_BONUS/>% Zielgenauigkeit und +<Ability:IMPULSE_CRIT_BONUS/>% kritische Trefferchance, wenn du dich diese Runde bewegt hast."
+LocPromotionPopupText="<Bullet/> Deine Fernkampfangriffe erhalten +<Ability:IMPULSE_AIM_BONUS/>% Zielgenauigkeit und +<Ability:IMPULSE_CRIT_BONUS/>% kritische Trefferchance, wenn du dich zuvor in dieser Runde bewegt hast.<br/>"
 
 [LockNLoad_LW X2AbilityTemplate]
 LocFriendlyName="Sichern und Nachladen"
@@ -5504,9 +5504,9 @@ LocPromotionPopupText="<Bullet/> Gewährt ein kostenloses Medikit.<br/><Bullet/>
 [OpenFire_LW X2AbilityTemplate]
 LocFriendlyName="Feuer eröffnen"
 LocFlyOverText="Feuer eröffnen"
-LocLongDescription="Deine Fernkampfangriffe erhalten +<Ability:+ToHit/> % Zielgenazigkeit und +<Ability:+Crit/> % kritische Trefferchance gegen Ziele mit vollem Leben."
-LocHelpText="Deine Fernkampfangriffe erhalten +<Ability:+ToHit/> % Zielgenazigkeit und +<Ability:+Crit/> % kritische Trefferchance gegen Ziele mit vollem Leben."
-LocPromotionPopupText="<Bullet/> Deine Fernkampfangriffe erhalten +<Ability:+ToHit/> % Zielgenazigkeit und +<Ability:+Crit/> % kritische Trefferchance gegen Ziele mit vollem Leben.<br/>"
+LocLongDescription="Deine Fernkampfangriffe erhalten <Ability:+ToHit/>% Zielgenauigkeit und <Ability:+Crit/>% kritische Trefferchance gegen Ziele mit vollem Leben."
+LocHelpText="Deine Fernkampfangriffe erhalten <Ability:+ToHit/>% Zielgenauigkeit und <Ability:+Crit/>% kritische Trefferchance gegen Ziele mit vollem Leben."
+LocPromotionPopupText="<Bullet/> Deine Fernkampfangriffe erhalten <Ability:+ToHit/>% Zielgenauigkeit und <Ability:+Crit/>% kritische Trefferchance gegen Ziele mit vollem Leben.<br/>"
 
 [WatchThemRun_LW X2AbilityTemplate]
 LocFriendlyName="Seht sie rennen!"
@@ -5525,9 +5525,9 @@ LocPromotionPopupText="<Bullet/> Rächer wird nicht ausgelöst, wenn diese Einhe
 [Predator_LW X2AbilityTemplate]
 LocFriendlyName="Jäger"
 LocFlyOverText="Jäger"
-LocLongDescription="Deine Fernkampfangriffe erhalten +<Ability:PREDATOR_AIM_BONUS_LW/> % Zielgenauigkeit und +<Ability:PREDATOR_CRIT_BONUS_LW/> % kritische Trefferchance auf flankierte oder ungedeckte Feinde."
-LocHelpText="Deine Fernkampfangriffe erhalten +<Ability:PREDATOR_AIM_BONUS_LW/> % Zielgenauigkeit und +<Ability:PREDATOR_CRIT_BONUS_LW/> % kritische Trefferchance auf flankierte oder ungedeckte Feinde."
-LocPromotionPopupText="<Bullet/> Deine Fernkampfangriffe erhalten +<Ability:PREDATOR_AIM_BONUS_LW/> % Zielgenauigkeit und +<Ability:PREDATOR_CRIT_BONUS_LW/> % kritische Trefferchance auf flankierte oder ungedeckte Feinde.<br/>"
+LocLongDescription="Deine Fernkampfangriffe erhalten +<Ability:PREDATOR_AIM_BONUS_LW/>% Zielgenauigkeit und +<Ability:PREDATOR_CRIT_BONUS_LW/>% kritische Trefferchance auf flankierte oder ungedeckte Feinde."
+LocHelpText="Deine Fernkampfangriffe erhalten +<Ability:PREDATOR_AIM_BONUS_LW/>% Zielgenauigkeit und +<Ability:PREDATOR_CRIT_BONUS_LW/>% kritische Trefferchance auf flankierte oder ungedeckte Feinde."
+LocPromotionPopupText="<Bullet/> Deine Fernkampfangriffe erhalten +<Ability:PREDATOR_AIM_BONUS_LW/>% Zielgenauigkeit und +<Ability:PREDATOR_CRIT_BONUS_LW/>% kritische Trefferchance auf flankierte oder ungedeckte Feinde.<br/>"
 
 [Stiletto_LW X2AbilityTemplate]
 LocFriendlyName="Stiletto"
@@ -5552,17 +5552,17 @@ LocPromotionPopupText="<Bullet/> Hilfsprotokoll neutralisiert jetzt Feuer, Gift,
 
 [SurvivalInstinct_LW X2AbilityTemplate]
 LocFriendlyName="Überlebensinstinkt"
-LocLongDescription="Erhalte +<Ability:+Defense/> Verteidigung und +<Ability:+Crit/> % kritische Trefferchance, wenn du verwundet bist."
-LocHelpText="Erhalte +<Ability:+Defense/> Verteidigung und +<Ability:+Crit/> % kritische Trefferchance, während du verwundet bist."
+LocLongDescription="Erhalte <Ability:+Defense/> Verteidigung und <Ability:+Crit/>% kritische Trefferchance, wenn du verwundet bist."
+LocHelpText="Erhalte <Ability:+Defense/> Verteidigung und <Ability:+Crit/>% kritische Trefferchance, während du verwundet bist."
 LocFlyOverText="Überlebensinstinkt"
-LocPromotionPopupText="<Bullet/> Erhalte +<Ability:+Defense/> Verteidigung und +<Ability:+Crit/> % kritische Trefferchance, während du verwundet bist.<br/><Bullet/> Die Boni gehen verloren, wenn du vollständig geheilt wirst.<br/>"
+LocPromotionPopupText="<Bullet/> Erhalte <Ability:+Defense/> Verteidigung und <Ability:+Crit/>% kritische Trefferchance, während du verwundet bist.<br/><Bullet/> Die Boni gehen verloren, wenn du vollständig geheilt wirst.<br/>"
 
 [WeaponHandling_LW X2AbilityTemplate]
 LocFriendlyName="Waffenhandhabung"
-LocLongDescription="Reduziert den Malus auf Zielgenauigkeit bei Schüssen auf kurze Distanz mit der Waffe \"<Ability:WeaponName/>\" um <Ability:WPN_HANDLING_MODIFIER/> %."
-LocHelpText="Reduziert den Malus auf Zielgenauigkeit bei Schüssen auf kurze Distanz mit der Waffe \"<Ability:WeaponName/>\" um <Ability:WPN_HANDLING_MODIFIER/> %."
+LocLongDescription="Reduziert den Malus auf Zielgenauigkeit bei Schüssen auf kurze Distanz mit der Waffe \"<Ability:WeaponName/>\" um <Ability:WPN_HANDLING_MODIFIER/>%."
+LocHelpText="Reduziert den Malus auf Zielgenauigkeit bei Schüssen auf kurze Distanz mit der Waffe \"<Ability:WeaponName/>\" um <Ability:WPN_HANDLING_MODIFIER/>%."
 LocFlyOverText="Waffenhandhabung"
-LocPromotionPopupText="<Bullet/> Reduziert den Malus auf Zielgenauigkeit bei Schüssen auf kurze Distanz mit der Waffe \"<Ability:WeaponName/>\" um <Ability:WPN_HANDLING_MODIFIER/> %.<br/><Bullet/> Waffenhandhabung hat keinen Einfluss auf den Zielmalus durch Schnellschuss."
+LocPromotionPopupText="<Bullet/> Reduziert den Malus auf Zielgenauigkeit bei Schüssen auf kurze Distanz mit der Waffe \"<Ability:WeaponName/>\" um <Ability:WPN_HANDLING_MODIFIER/>%.<br/><Bullet/> Waffenhandhabung hat keinen Einfluss auf den Zielmalus durch Schnellschuss."
 
 [ThatsCloseEnough_LW X2AbilityTemplate]
 LocFriendlyName="Das ist nah genug"
@@ -5605,9 +5605,9 @@ LocFriendlyName="Recycling: Muniton zurückgewonnen"
 [Brutality_LW X2AbilityTemplate]
 LocFriendlyName="Brutalität"
 LocFlyOverText="Brutalität"
-LocLongDescription="Das Töten organischer Feinde mit deiner abgesägten Schrotflinte erhalten eine Chance von <Ability:BRUTALITY_PANIC_CHANCE/> %, andere Feinde innerhalb von <Ability:BRUTALITY_TILE_RADIUS/> Feldern um das Ziel herum in Panik zu versetzen."
-LocHelpText="Das Töten organischer Feinde mit deiner abgesägten Schrotflinte erhalten eine Chance von <Ability:BRUTALITY_PANIC_CHANCE/> %, andere Feinde innerhalb von <Ability:BRUTALITY_TILE_RADIUS/> Feldern um das Ziel herum in Panik zu versetzen."
-LocPromotionPopupText="<Bullet/> Das Töten organischer Feinde mit deiner abgesägten Schrotflinte erhalten eine Chance von <Ability:BRUTALITY_PANIC_CHANCE/> %, andere Feinde innerhalb von <Ability:BRUTALITY_TILE_RADIUS/> Feldern um das Ziel herum in Panik zu versetzen.<br/><Bullet/> Benutze 'Brutalität' zur Massenkontrolle und kombiniere sie mit 'Rücksichtslos' zum raschen Vorstoßen.<br/>"
+LocLongDescription="Das Töten organischer Feinde mit deiner abgesägten Schrotflinte erhalten eine Chance von <Ability:BRUTALITY_PANIC_CHANCE/>%, andere Feinde innerhalb von <Ability:BRUTALITY_TILE_RADIUS/> Feldern um das Ziel herum in Panik zu versetzen."
+LocHelpText="Das Töten organischer Feinde mit deiner abgesägten Schrotflinte erhalten eine Chance von <Ability:BRUTALITY_PANIC_CHANCE/>%, andere Feinde innerhalb von <Ability:BRUTALITY_TILE_RADIUS/> Feldern um das Ziel herum in Panik zu versetzen."
+LocPromotionPopupText="<Bullet/> Das Töten organischer Feinde mit deiner abgesägten Schrotflinte erhalten eine Chance von <Ability:BRUTALITY_PANIC_CHANCE/>%, andere Feinde innerhalb von <Ability:BRUTALITY_TILE_RADIUS/> Feldern um das Ziel herum in Panik zu versetzen.<br/><Bullet/> Benutze 'Brutalität' zur Massenkontrolle und kombiniere sie mit 'Rücksichtslos' zum raschen Vorstoßen.<br/>"
 
 [Ruthless_LW X2AbilityTemplate]
 LocFriendlyName="Rücksichtslos"
@@ -5618,42 +5618,42 @@ LocPromotionPopupText="<Bullet/> Das Töten eines panischen oder desorientierten
 
 [ZoneOfControl_LW X2AbilityTemplate]
 LocFriendlyName="Kontrollzone"
-LocHelpText="Alle Feinde innerhalb von <Ability:ZONE_CONTROL_RADIUS/> Feldern um den <Ability:ClassName/> herum erhalten <Ability:ZONE_CONTROL_AIM_PENALTY/> % Zielgenauigkeit und <Ability:ZONE_CONTROL_MOBILITY_PENALTY/> Mobilität."
-LocLongDescription="Alle Feinde innerhalb von <Ability:ZONE_CONTROL_RADIUS/> Feldern um den <Ability:ClassName/> herum erhalten <Ability:ZONE_CONTROL_AIM_PENALTY/> % Zielgenauigkeit und <Ability:ZONE_CONTROL_MOBILITY_PENALTY/> Mobilität."
-LocPromotionPopupText="<Bullet/> Alle Feinde innerhalb von <Ability:ZONE_CONTROL_RADIUS/> Feldern um den <Ability:ClassName/> herum erhalten <Ability:ZONE_CONTROL_AIM_PENALTY/> % Zielgenauigkeit und <Ability:ZONE_CONTROL_MOBILITY_PENALTY/> Mobilität.<br/>"
+LocHelpText="Alle Feinde innerhalb von <Ability:ZONE_CONTROL_RADIUS/> Feldern um den <Ability:ClassName/> herum erhalten <Ability:ZONE_CONTROL_AIM_PENALTY/>% Zielgenauigkeit und <Ability:ZONE_CONTROL_MOBILITY_PENALTY/> Mobilität."
+LocLongDescription="Alle Feinde innerhalb von <Ability:ZONE_CONTROL_RADIUS/> Feldern um den <Ability:ClassName/> herum erhalten <Ability:ZONE_CONTROL_AIM_PENALTY/>% Zielgenauigkeit und <Ability:ZONE_CONTROL_MOBILITY_PENALTY/> Mobilität."
+LocPromotionPopupText="<Bullet/> Alle Feinde innerhalb von <Ability:ZONE_CONTROL_RADIUS/> Feldern um den <Ability:ClassName/> herum erhalten <Ability:ZONE_CONTROL_AIM_PENALTY/>% Zielgenauigkeit und <Ability:ZONE_CONTROL_MOBILITY_PENALTY/> Mobilität.<br/>"
 
 [ZoCCleanse X2AbilityTemplate]
 LocFriendlyName="Kontrollzone"
-LocHelpText="Alle Feinde innerhalb von <Ability:ZONE_CONTROL_RADIUS/> Feldern um den <Ability:ClassName/> herum erhalten <Ability:ZONE_CONTROL_AIM_PENALTY/> % Zielgenauigkeit und <Ability:ZONE_CONTROL_MOBILITY_PENALTY/> Mobilität."
-LocLongDescription="Alle Feinde innerhalb von <Ability:ZONE_CONTROL_RADIUS/> Feldern um den <Ability:ClassName/> herum erhalten <Ability:ZONE_CONTROL_AIM_PENALTY/> % Zielgenauigkeit und <Ability:ZONE_CONTROL_MOBILITY_PENALTY/> Mobilität."
-LocPromotionPopupText="<Bullet/> Alle Feinde innerhalb von <Ability:ZONE_CONTROL_RADIUS/> Feldern um den <Ability:ClassName/> herum erhalten <Ability:ZONE_CONTROL_AIM_PENALTY/> % Zielgenauigkeit und <Ability:ZONE_CONTROL_MOBILITY_PENALTY/> Mobilität.<br/>"
+LocHelpText="Alle Feinde innerhalb von <Ability:ZONE_CONTROL_RADIUS/> Feldern um den <Ability:ClassName/> herum erhalten <Ability:ZONE_CONTROL_AIM_PENALTY/>% Zielgenauigkeit und <Ability:ZONE_CONTROL_MOBILITY_PENALTY/> Mobilität."
+LocLongDescription="Alle Feinde innerhalb von <Ability:ZONE_CONTROL_RADIUS/> Feldern um den <Ability:ClassName/> herum erhalten <Ability:ZONE_CONTROL_AIM_PENALTY/>% Zielgenauigkeit und <Ability:ZONE_CONTROL_MOBILITY_PENALTY/> Mobilität."
+LocPromotionPopupText="<Bullet/> Alle Feinde innerhalb von <Ability:ZONE_CONTROL_RADIUS/> Feldern um den <Ability:ClassName/> herum erhalten <Ability:ZONE_CONTROL_AIM_PENALTY/>% Zielgenauigkeit und <Ability:ZONE_CONTROL_MOBILITY_PENALTY/> Mobilität.<br/>"
 
 [ZoCPassive X2AbilityTemplate]
 LocFriendlyName="Kontrollzone"
-LocHelpText="Alle Feinde innerhalb von <Ability:ZONE_CONTROL_RADIUS/> Feldern um den <Ability:ClassName/> herum erhalten <Ability:ZONE_CONTROL_AIM_PENALTY/> % Zielgenauigkeit und <Ability:ZONE_CONTROL_MOBILITY_PENALTY/> Mobilität.."
-LocLongDescription="Alle Feinde innerhalb von <Ability:ZONE_CONTROL_RADIUS/> Feldern um den <Ability:ClassName/> herum erhalten <Ability:ZONE_CONTROL_AIM_PENALTY/> % Zielgenauigkeit und <Ability:ZONE_CONTROL_MOBILITY_PENALTY/> Mobilität."
-LocPromotionPopupText="Alle Feinde innerhalb von <Ability:ZONE_CONTROL_RADIUS/> Feldern um den <Ability:ClassName/> herum erhalten <Ability:ZONE_CONTROL_AIM_PENALTY/> % Zielgenauigkeit und <Ability:ZONE_CONTROL_MOBILITY_PENALTY/> Mobilität.<br/>"
+LocHelpText="Alle Feinde innerhalb von <Ability:ZONE_CONTROL_RADIUS/> Feldern um den <Ability:ClassName/> herum erhalten <Ability:ZONE_CONTROL_AIM_PENALTY/>% Zielgenauigkeit und <Ability:ZONE_CONTROL_MOBILITY_PENALTY/> Mobilität.."
+LocLongDescription="Alle Feinde innerhalb von <Ability:ZONE_CONTROL_RADIUS/> Feldern um den <Ability:ClassName/> herum erhalten <Ability:ZONE_CONTROL_AIM_PENALTY/>% Zielgenauigkeit und <Ability:ZONE_CONTROL_MOBILITY_PENALTY/> Mobilität."
+LocPromotionPopupText="Alle Feinde innerhalb von <Ability:ZONE_CONTROL_RADIUS/> Feldern um den <Ability:ClassName/> herum erhalten <Ability:ZONE_CONTROL_AIM_PENALTY/>% Zielgenauigkeit und <Ability:ZONE_CONTROL_MOBILITY_PENALTY/> Mobilität.<br/>"
 
 [ApexPredator_LW X2AbilityTemplate]
 LocFriendlyName="Mächtiger Jäger"
 LocFlyOverText="Mächtiger Jäger"
 LocHelpText="Kritische Treffer mit deiner Primärwaffe haben eine Chance, nahe Feinde in Panik zu versetzen."
 LocLongDescription="Kritische Treffer mit deiner Primärwaffe haben eine Chance, nahe Feinde in Panik zu versetzen.."
-LocPromotionPopupText="<Bullet/> Kritische Treffer mit deiner Primärwaffe haben eine Chance, Feinde innerhalb von <Ability:APEX_PREDATOR_PANIC_RADIUS/ Feldern in Panik zu versetzen.<br/><Bullet/> Die Basischance auf Panik beträgt <Ability:APEX_PREDATOR_BASE_PANIC_CHANCE/> % und wird durch den Willenswert des Feindes reduziert."
+LocPromotionPopupText="<Bullet/> Kritische Treffer mit deiner Primärwaffe haben eine Chance, Feinde innerhalb von <Ability:APEX_PREDATOR_PANIC_RADIUS/ Feldern in Panik zu versetzen.<br/><Bullet/> Die Basischance auf Panik beträgt <Ability:APEX_PREDATOR_BASE_PANIC_CHANCE/>% und wird durch den Willenswert des Feindes reduziert."
 
 [BlindingProtocol_LW X2AbilityTemplate]
 LocFriendlyName="Blendprotokoll"
 LocFlyOverText="Blendprotokoll"
-LocHelpText="Sende deinen GREMLIN aus, um eine kleine Blendgranate auf ein Ziel zu werfen und Feinde in einem kleinen Bereich zu desorientieren und mit Offensivstrafen zu belegen (<Ability:DISORIENTED_AIM_ADJUST/> % Zielgenauigkeit und <Ability:DISORIENTED_MOBILITY_ADJUST/> Mobilität)."
-LocLongDescription="Sende deinen GREMLIN aus, um eine kleine Blendgranate auf ein Ziel zu werfen und Feinde in einem kleinen Bereich zu desorientieren und mit Offensivstrafen zu belegen (<Ability:DISORIENTED_AIM_ADJUST/> % Zielgenauigkeit und <Ability:DISORIENTED_MOBILITY_ADJUST/> Mobilität)."
-LocPromotionPopupText="<Bullet/> Sende deinen GREMLIN aus, um eine kleine Blendgranate auf ein sichtbares Ziel (inklsuvie Truppsicht) zu werfen und Feinde in einem kleinen Bereich zu desorientieren und mit Offensivstrafen zu belegen.<br/><Bullet/> Feinde erhalten <Ability:DISORIENTED_AIM_ADJUST/> % Zielgenauigkeit und <Ability:DISORIENTED_MOBILITY_ADJUST/> Mobilität.<br/><Bullet/> Blendprotokoll beendet die Runde des Soldaten und hat eine Abklingzeit von <Ability:SelfCooldown_LW/> Runden.<br/>"
+LocHelpText="Sende deinen GREMLIN aus, um eine kleine Blendgranate auf ein Ziel zu werfen und Feinde in einem kleinen Bereich zu desorientieren und mit Offensivstrafen zu belegen (<Ability:DISORIENTED_AIM_ADJUST/>% Zielgenauigkeit und <Ability:DISORIENTED_MOBILITY_ADJUST/> Mobilität)."
+LocLongDescription="Sende deinen GREMLIN aus, um eine kleine Blendgranate auf ein Ziel zu werfen und Feinde in einem kleinen Bereich zu desorientieren und mit Offensivstrafen zu belegen (<Ability:DISORIENTED_AIM_ADJUST/>% Zielgenauigkeit und <Ability:DISORIENTED_MOBILITY_ADJUST/> Mobilität)."
+LocPromotionPopupText="<Bullet/> Sende deinen GREMLIN aus, um eine kleine Blendgranate auf ein sichtbares Ziel (inklsuvie Truppsicht) zu werfen und Feinde in einem kleinen Bereich zu desorientieren und mit Offensivstrafen zu belegen.<br/><Bullet/> Feinde erhalten <Ability:DISORIENTED_AIM_ADJUST/>% Zielgenauigkeit und <Ability:DISORIENTED_MOBILITY_ADJUST/> Mobilität.<br/><Bullet/> Blendprotokoll beendet die Runde des Soldaten und hat eine Abklingzeit von <Ability:SelfCooldown_LW/> Runden.<br/>"
 
 [LeadTheTarget_LW X2AbilityTemplate]
 LocFriendlyName="Verfolge das Ziel"
 LocFlyOverText="Verfolge das Ziel"
-LocHelpText="Gewährt +<Ability:LEAD_TARGET_AIM_BONUS/> % Zielgenauigkeit, verzögert den Schuss jedoch, bis das Ziel in seiner Runde eine Aktion ausführt. Kostet 2 Aktionen und hat eine Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
-LocLongDescription="Gewährt +<Ability:LEAD_TARGET_AIM_BONUS/> % Zielgenauigkeit, verzögert den Schuss jedoch, bis das Ziel in seiner Runde eine Aktion ausführt. Kostet 2 Aktionen und hat eine Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
-LocPromotionPopupText="<Bullet/> Verfolge das Ziel genau und erhalte +<Ability:LEAD_TARGET_AIM_BONUS/> % Trefferchance, verzögere den Schuss jedoch, bis das Ziel in seiner Runde eine Aktion ausführt.<br/><Bullet/> 'Verfolge das Ziel' kostet 2 Aktionspunkte und hat eine Abklingzeit von <Ability:SelfCooldown_LW/> Runde(n).<br/>"
+LocHelpText="Gewährt +<Ability:LEAD_TARGET_AIM_BONUS/>% Zielgenauigkeit, verzögert den Schuss jedoch, bis das Ziel in seiner Runde eine Aktion ausführt. Kostet 2 Aktionen und hat eine Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
+LocLongDescription="Gewährt +<Ability:LEAD_TARGET_AIM_BONUS/>% Zielgenauigkeit, verzögert den Schuss jedoch, bis das Ziel in seiner Runde eine Aktion ausführt. Kostet 2 Aktionen und hat eine Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
+LocPromotionPopupText="<Bullet/> Verfolge das Ziel genau und erhalte +<Ability:LEAD_TARGET_AIM_BONUS/>% Trefferchance, verzögere den Schuss jedoch, bis das Ziel in seiner Runde eine Aktion ausführt.<br/><Bullet/> 'Verfolge das Ziel' kostet 2 Aktionspunkte und hat eine Abklingzeit von <Ability:SelfCooldown_LW/> Runde(n).<br/>"
 
 [LeadTheTargetShot_LW X2AbilityTemplate]
 LocFriendlyName="Verfolge das Ziel"
@@ -5661,15 +5661,15 @@ LocFlyOverText="Verfolge das Ziel"
 
 [TargetFocus_LW X2AbilityTemplate]
 LocFriendlyName="Fokussieren"
-LocHelpText="Deine Fernkampfangriffe erhalten +<Ability:TARGET_FOCUS_AIM_BONUS/> % Zielgenauigkeit und +<Ability:TARGET_FOCUS_PEN_BONUS/> Rüstungspenetration gegen nicht flankierbare Feinde."
-LocLongDescription="Deine Fernkampfangriffe erhalten +<Ability:TARGET_FOCUS_AIM_BONUS/> % Zielgenauigkeit und +<Ability:TARGET_FOCUS_PEN_BONUS/> Rüstungspenetration gegen nicht flankierbare Feinde."
-LocPromotionPopupText="<Bullet/> Deine Fernkampfangriffe erhalten +<Ability:TARGET_FOCUS_AIM_BONUS/> % Zielgenauigkeit und +<Ability:TARGET_FOCUS_PEN_BONUS/> Rüstungspenetration gegen nicht flankierbare Feinde.<br/><Bullet/> Nicht flankierbare Feinde können keine Deckung erhalten, z.B. Drohnen, MECHs und Berserker.<br/>"
+LocHelpText="Deine Fernkampfangriffe erhalten +<Ability:TARGET_FOCUS_AIM_BONUS/>% Zielgenauigkeit und +<Ability:TARGET_FOCUS_PEN_BONUS/> Rüstungspenetration gegen nicht flankierbare Feinde."
+LocLongDescription="Deine Fernkampfangriffe erhalten +<Ability:TARGET_FOCUS_AIM_BONUS/>% Zielgenauigkeit und +<Ability:TARGET_FOCUS_PEN_BONUS/> Rüstungspenetration gegen nicht flankierbare Feinde."
+LocPromotionPopupText="<Bullet/> Deine Fernkampfangriffe erhalten +<Ability:TARGET_FOCUS_AIM_BONUS/>% Zielgenauigkeit und +<Ability:TARGET_FOCUS_PEN_BONUS/> Rüstungspenetration gegen nicht flankierbare Feinde.<br/><Bullet/> Nicht flankierbare Feinde können keine Deckung erhalten, z.B. Drohnen, MECHs und Berserker.<br/>"
 
 [AimAssist_LW X2AbilityTemplate]
 LocFriendlyName="Zielhilfe"
-LocHelpText="Erhalte zusätzlich +<Ability:AIM_ASSIST_AIM_BONUS/> % Zielgenauigkeit und +<Ability:AIM_ASSIST_CRIT_BONUS/> % kritische Trefferchance gegen markierte Ziele."
-LocLongDescription="Erhalte zusätzlich +<Ability:AIM_ASSIST_AIM_BONUS/> % Zielgenauigkeit und +<Ability:AIM_ASSIST_CRIT_BONUS/> % kritische Trefferchance gegen markierte Ziele."
-LocPromotionPopupText="<Bullet/> Erhalte zusätzlich +<Ability:AIM_ASSIST_AIM_BONUS/> % Zielgenauigkeit und +<Ability:AIM_ASSIST_CRIT_BONUS/> % kritische Trefferchance gegen markierte Ziele.<br/><Bullet/> Gilt für alle durch Holo-Zielen markierte Ziele. <br/>"
+LocHelpText="Erhalte zusätzlich +<Ability:AIM_ASSIST_AIM_BONUS/>% Zielgenauigkeit und +<Ability:AIM_ASSIST_CRIT_BONUS/>% kritische Trefferchance gegen markierte Ziele."
+LocLongDescription="Erhalte zusätzlich +<Ability:AIM_ASSIST_AIM_BONUS/>% Zielgenauigkeit und +<Ability:AIM_ASSIST_CRIT_BONUS/>% kritische Trefferchance gegen markierte Ziele."
+LocPromotionPopupText="<Bullet/> Erhalte zusätzlich +<Ability:AIM_ASSIST_AIM_BONUS/>% Zielgenauigkeit und +<Ability:AIM_ASSIST_CRIT_BONUS/>% kritische Trefferchance gegen markierte Ziele.<br/><Bullet/> Gilt für alle durch Holo-Zielen markierte Ziele. <br/>"
 
 [SuperCharge_LW X2AbilityTemplate]
 LocFriendlyName="Bogenschweißer"
@@ -5679,9 +5679,9 @@ LocPromotionPopupText="<Bullet/> Du beginnst jede Mission mit <Ability:SUPERCHAR
 
 [ShootingSharp_LW X2AbilityTemplate]
 LocFriendlyName="Scharfschießen"
-LocHelpText="Deine Fernkampfangriffe erhalten +<Ability:SS_PIERCE/> Rüstungspenetration und +<Ability:SS_AIM_BONUS/> % Zielgenauigkeit gegen gedeckte Einheiten."
-LocLongDescription="Deine Fernkampfangriffe erhalten +<Ability:SS_PIERCE/> Rüstungspenetration und +<Ability:SS_AIM_BONUS/> % Zielgenauigkeit gegen gedeckte Einheiten."
-LocPromotionPopupText="<Bullet/>Deine Fernkampfangriffe gegen Einheiten in Deckung ignorieren +<Ability:SS_PIERCE/> Rüstung und erhalten +<Ability:SS_AIM_BONUS/> % Zielgenauigkeit.<br/>"
+LocHelpText="Deine Fernkampfangriffe erhalten +<Ability:SS_PIERCE/> Rüstungspenetration und +<Ability:SS_AIM_BONUS/>% Zielgenauigkeit gegen gedeckte Einheiten."
+LocLongDescription="Deine Fernkampfangriffe erhalten +<Ability:SS_PIERCE/> Rüstungspenetration und +<Ability:SS_AIM_BONUS/>% Zielgenauigkeit gegen gedeckte Einheiten."
+LocPromotionPopupText="<Bullet/>Deine Fernkampfangriffe gegen Einheiten in Deckung ignorieren +<Ability:SS_PIERCE/> Rüstung und erhalten +<Ability:SS_AIM_BONUS/>% Zielgenauigkeit.<br/>"
 
 [Unlimitedpower_LW X2AbilityTemplate]
 LocFriendlyName="Unbegrenzte Leistung"
@@ -5736,16 +5736,16 @@ LocPromotionPopupText="<Bullet/> Feuer erwidern wird nur einmal pro Runde ausgel
 LocFriendlyName="Heftiger Schuss (Schnellschuss)"
 LocLongDescription="Gib einen Schuss mit leicht verminderter Zielsicherheit ab, der aber deutlich mehr Schaden verursacht."
 LocHelpText="Gib einen Schuss mit leicht verminderter Zielsicherheit ab, der aber deutlich mehr Schaden verursacht."
-LocPromotionPopupText="<Bullet/> Heftiger Schuss reduziert die Trefferchance eines Schusses um <Ability:DeadEyeAim/> % und erhöht den Basisschaden um <Ability:DeadEyeDmg/> %.<br/><Bullet/> Heftiger Schuss hat eine Abklingzeit von <Ability:SelfCooldown_LW/> Runde(n).<br/>"
+LocPromotionPopupText="<Bullet/> Heftiger Schuss reduziert die Trefferchance eines Schusses um <Ability:DeadEyeAim/>% und erhöht den Basisschaden um <Ability:DeadEyeDmg/>%.<br/><Bullet/> Heftiger Schuss hat eine Abklingzeit von <Ability:SelfCooldown_LW/> Runde(n).<br/>"
 
 [DeadeyeDamage_SnapShot X2AbilityTemplate]
 LocFriendlyName="Heftiger Schuss (Schnellschuss)"
 LocLongDescription="Gib einen Schuss mit leicht verminderter Zielsicherheit ab, der aber deutlich mehr Schaden verursacht."
 LocHelpText="Gib einen Schuss mit leicht verminderter Zielsicherheit ab, der aber deutlich mehr Schaden verursacht."
-LocPromotionPopupText="<Bullet/> Heftiger Schuss reduziert die Trefferchance eines Schusses um <Ability:DeadEyeAim/> % und erhöht den Basisschaden um <Ability:DeadEyeDmg/> %.<br/><Bullet/> Heftiger Schuss hat eine Abklingzeit von <Ability:SelfCooldown_LW/> Runde(n).<br/>"
+LocPromotionPopupText="<Bullet/> Heftiger Schuss reduziert die Trefferchance eines Schusses um <Ability:DeadEyeAim/>% und erhöht den Basisschaden um <Ability:DeadEyeDmg/>%.<br/><Bullet/> Heftiger Schuss hat eine Abklingzeit von <Ability:SelfCooldown_LW/> Runde(n).<br/>"
 
 [Deadeye X2AbilityTemplate]
-LocPromotionPopupText="<Bullet/> Heftiger Schuss reduziert die Trefferchance eines Schusses um <Ability:DeadEyeAim/> % und erhöht den Basisschaden um <Ability:DeadEyeDmg/> %.<br/><Bullet/> Heftiger Schuss hat eine Abklingzeit von <Ability:SelfCooldown_LW/> Runde(n).<br/>"
+LocPromotionPopupText="<Bullet/> Heftiger Schuss reduziert die Trefferchance eines Schusses um <Ability:DeadEyeAim/>% und erhöht den Basisschaden um <Ability:DeadEyeDmg/>%.<br/><Bullet/> Heftiger Schuss hat eine Abklingzeit von <Ability:SelfCooldown_LW/> Runde(n).<br/>"
 
 [HolyWarriorM1 X2AbilityTemplate]
 LocFriendlyName="Heiliger Krieger"
@@ -5815,8 +5815,8 @@ LocPromotionPopupText="<Bullet/> Von Geistbrand getroffene Ziele können nun in 
 
 [MindScorch X2AbilityTemplate]
 LocFriendlyName="Geistbrandh"
-LocHelpText="Der Hexer öffnet seinen Geist für das Ziel, fügt ihm Schaden zu und setzt es mit einer Chance von <Ability:MIND_SCORCH_BURN_CHANCE/> % in Brand. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
-LocLongDescription="Der Hexer öffnet seinen Geist für das Ziel, fügt ihm Schaden zu und setzt es mit einer Chance von <Ability:MIND_SCORCH_BURN_CHANCE/> % durch seinen Wahnsinn in Brand. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
+LocHelpText="Der Hexer öffnet seinen Geist für das Ziel, fügt ihm Schaden zu und setzt es mit einer Chance von <Ability:MIND_SCORCH_BURN_CHANCE/>% in Brand. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
+LocLongDescription="Der Hexer öffnet seinen Geist für das Ziel, fügt ihm Schaden zu und setzt es mit einer Chance von <Ability:MIND_SCORCH_BURN_CHANCE/>% durch seinen Wahnsinn in Brand. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
 
 [ChosenKidnap X2AbilityTemplate]
 LocFriendlyName="Entführen"
@@ -5832,26 +5832,26 @@ LocFlyOverText="Eifrig"
 
 [CombatReadiness X2AbilityTemplate]
 LocFriendlyName="Kampfbereitschaft"
-LocLongDescription="Erhalte zusätzlich +<Ability:COMBATREADINESS_AIM/> % Zielgenauigkeit und +<Ability:COMBATREADINESS_DEF/> Verteidigung in Deckung für den Rest deiner Runde. Entferne Beeinträchtigungen durch Immobilisierung."
-LocHelpText="Erhalte +<Ability:COMBATREADINESS_AIM/> % Zielgenauigkeit und +<Ability:COMBATREADINESS_DEF/> Verteidigung in Deckung für den Rest deiner Runde."
+LocLongDescription="Erhalte zusätzlich +<Ability:COMBATREADINESS_AIM/>% Zielgenauigkeit und +<Ability:COMBATREADINESS_DEF/> Verteidigung in Deckung für den Rest deiner Runde. Entferne Beeinträchtigungen durch Immobilisierung."
+LocHelpText="Erhalte +<Ability:COMBATREADINESS_AIM/>% Zielgenauigkeit und +<Ability:COMBATREADINESS_DEF/> Verteidigung in Deckung für den Rest deiner Runde."
 LocFlyOverText="Kampfbereitschaft"
 
 [CombatReadinessPassive X2AbilityTemplate]
 LocFriendlyName="Kampfbereitschaft"
-LocLongDescription="Erhalte zusätzlich +<Ability:COMBATREADINESS_AIM/> % Zielgenauigkeit und +<Ability:COMBATREADINESS_DEF/> Verteidigung in Deckung für den Rest deiner Runde. Entferne Beeinträchtigungen durch Immobilisierung."
-LocHelpText="Erhalte +<Ability:COMBATREADINESS_AIM/> % Zielgenauigkeit und +<Ability:COMBATREADINESS_DEF/> Verteidigung in Deckung für den Rest deiner Runde."
+LocLongDescription="Erhalte zusätzlich +<Ability:COMBATREADINESS_AIM/>% Zielgenauigkeit und +<Ability:COMBATREADINESS_DEF/> Verteidigung in Deckung für den Rest deiner Runde. Entferne Beeinträchtigungen durch Immobilisierung."
+LocHelpText="Erhalte +<Ability:COMBATREADINESS_AIM/>% Zielgenauigkeit und +<Ability:COMBATREADINESS_DEF/> Verteidigung in Deckung für den Rest deiner Runde."
 LocFlyOverText="Kampfbereitschaft"
 
 [Banzai_LW X2AbilityTemplate]
 LocFriendlyName="Banzai!"
-LocLongDescription="Erhalte zusätzlich +<Ability:COMBATREADINESS_AIM/> % Zielgenauigkeit und +<Ability:COMBATREADINESS_DEF/> Verteidigung in Deckung für den Rest deiner Runde und entferne die meisten Beeinträchtigungen."
-LocHelpText="Erhalte zusätzlich +<Ability:COMBATREADINESS_AIM/> % Zielgenauigkeit und +<Ability:COMBATREADINESS_DEF/> Verteidigung in Deckung für den Rest deiner Runde und entferne die meisten Beeinträchtigungen."
+LocLongDescription="Erhalte zusätzlich +<Ability:COMBATREADINESS_AIM/>% Zielgenauigkeit und +<Ability:COMBATREADINESS_DEF/> Verteidigung in Deckung für den Rest deiner Runde und entferne die meisten Beeinträchtigungen."
+LocHelpText="Erhalte zusätzlich +<Ability:COMBATREADINESS_AIM/>% Zielgenauigkeit und +<Ability:COMBATREADINESS_DEF/> Verteidigung in Deckung für den Rest deiner Runde und entferne die meisten Beeinträchtigungen."
 LocFlyOverText="BANZAI!"
 
 [BanzaiPassive_LW X2AbilityTemplate]
 LocFriendlyName="Bainzai!"
-LocLongDescription="Erhalte zusätzlich +<Ability:COMBATREADINESS_AIM/> % Zielgenauigkeit und +<Ability:COMBATREADINESS_DEF/> Verteidigung in Deckung für den Rest deiner Runde und entferne die meisten Beeinträchtigungen."
-LocHelpText="Erhalte zusätzlich +<Ability:COMBATREADINESS_AIM/> % Zielgenauigkeit und +<Ability:COMBATREADINESS_DEF/> Verteidigung in Deckung für den Rest deiner Runde und entferne die meisten Beeinträchtigungen."
+LocLongDescription="Erhalte zusätzlich +<Ability:COMBATREADINESS_AIM/>% Zielgenauigkeit und +<Ability:COMBATREADINESS_DEF/> Verteidigung in Deckung für den Rest deiner Runde und entferne die meisten Beeinträchtigungen."
+LocHelpText="Erhalte zusätzlich +<Ability:COMBATREADINESS_AIM/>% Zielgenauigkeit und +<Ability:COMBATREADINESS_DEF/> Verteidigung in Deckung für den Rest deiner Runde und entferne die meisten Beeinträchtigungen."
 LocFlyOverText="BANZAI!"
 
 [ChosenAssassin X2CharacterTemplate]
@@ -6089,9 +6089,9 @@ LocFlyOverText="Hafenwelle"
 [Brawler X2AbilityTemplate]
 LocFriendlyName="Raufbold"
 LocFlyOverText="Raufbold"
-LocLongDescription="Erleide <Ability:BRAWLER_DR_PCT> % weniger Schaden durch Angriffe innerhalb von 4 Feldern."
-LocHelpText="Erleide <Ability:BRAWLER_DR_PCT> % weniger Schaden durch Angriffe innerhalb von 4 Feldern."
-LocPromotionPopupText="<Bullet/> Erleide <Ability:BRAWLER_DR_PCT> % weniger Schaden durch Angriffe aus einem Umkreis von 4 Feldern.<br/>"
+LocLongDescription="Erleide <Ability:BRAWLER_DR_PCT>% weniger Schaden durch Angriffe innerhalb von 4 Feldern."
+LocHelpText="Erleide <Ability:BRAWLER_DR_PCT>% weniger Schaden durch Angriffe innerhalb von 4 Feldern."
+LocPromotionPopupText="<Bullet/> Erleide <Ability:BRAWLER_DR_PCT>% weniger Schaden durch Angriffe aus einem Umkreis von 4 Feldern.<br/>"
 
 [InstantReactionTime X2AbilityTemplate]
 LocFriendlyName="Reaktionstraining"
@@ -6118,15 +6118,15 @@ LocHelpText="Negiert den kritischen Trefferbonus durch Flankieren."
 [ImpactCompensation_LW X2AbilityTemplate]
 LocFriendlyName="Schadenskompensation"
 LocFlyOverText="Schadenskompensation"
-LocLongDescription="Jedes Mal, wenn du Schaden erleidest, erhältst du <Ability:IMPACT_COMPENSATION_PCT_DR> % Schadensreduktion bis zum Ende der Runde. Wird maximal <Ability:IMPACT_COMPENSATION_MAX_STACKS/> mal pro Runde ausgelöst."
-LocHelpText="Wenn du Schaden erleidest, erhältst du (maximal <Ability:IMPACT_COMPENSATION_MAX_STACKS/> mal pro Runde) <Ability:IMPACT_COMPENSATION_PCT_DR> % Schadensreduktion bis zum Ende der Runde."
-LocPromotionPopupText="<Bullet/> Jedes Mal, wenn du Schaden erleidest, erhältst du <Ability:IMPACT_COMPENSATION_PCT_DR> % Schadensreduktion bis zum Ende der Runde.<br/><Bullet/> Jeder Schadenseingang reduziert den zukünftigen Schaden noch einmal <Ability:IMPACT_COMPENSATION_PCT_DR> %.<br/><Bullet/> Der Schaden wird maximal <Ability:IMPACT_COMPENSATION_MAX_STACKS/> mal pro Runde reduziert, wobei die einzelnen Werte multipliziert werden.<br/><Bullet/> Zu Beginn deiner Runde wird die Schadenskompensation zurückgesetzt."
+LocLongDescription="Jedes Mal, wenn du Schaden erleidest, erhältst du <Ability:IMPACT_COMPENSATION_PCT_DR>% Schadensreduktion bis zum Ende der Runde. Wird maximal <Ability:IMPACT_COMPENSATION_MAX_STACKS/> mal pro Runde ausgelöst."
+LocHelpText="Wenn du Schaden erleidest, erhältst du (maximal <Ability:IMPACT_COMPENSATION_MAX_STACKS/> mal pro Runde) <Ability:IMPACT_COMPENSATION_PCT_DR>% Schadensreduktion bis zum Ende der Runde."
+LocPromotionPopupText="<Bullet/> Jedes Mal, wenn du Schaden erleidest, erhältst du <Ability:IMPACT_COMPENSATION_PCT_DR>% Schadensreduktion bis zum Ende der Runde.<br/><Bullet/> Jeder Schadenseingang reduziert den zukünftigen Schaden noch einmal <Ability:IMPACT_COMPENSATION_PCT_DR>%.<br/><Bullet/> Der Schaden wird maximal <Ability:IMPACT_COMPENSATION_MAX_STACKS/> mal pro Runde reduziert, wobei die einzelnen Werte multipliziert werden.<br/><Bullet/> Zu Beginn deiner Runde wird die Schadenskompensation zurückgesetzt."
 
 [ImpactCompensationPassive_LW X2AbilityTemplate]
 LocFriendlyName="Impact Compensation"
 LocFlyOverText="Impact Compensation"
-LocLongDescription="Jedes Mal, wenn du Schaden erleidest, erhältst du <Ability:IMPACT_COMPENSATION_PCT_DR> % Schadensreduktion bis zum Ende der Runde. Wird maximal <Ability:IMPACT_COMPENSATION_MAX_STACKS/> mal pro Runde ausgelöst."
-LocHelpText="Wenn du Schaden erleidest, erhältst du (maximal <Ability:IMPACT_COMPENSATION_MAX_STACKS/> mal pro Runde) <Ability:IMPACT_COMPENSATION_PCT_DR> % Schadensreduktion bis zum Ende der Runde."
+LocLongDescription="Jedes Mal, wenn du Schaden erleidest, erhältst du <Ability:IMPACT_COMPENSATION_PCT_DR>% Schadensreduktion bis zum Ende der Runde. Wird maximal <Ability:IMPACT_COMPENSATION_MAX_STACKS/> mal pro Runde ausgelöst."
+LocHelpText="Wenn du Schaden erleidest, erhältst du (maximal <Ability:IMPACT_COMPENSATION_MAX_STACKS/> mal pro Runde) <Ability:IMPACT_COMPENSATION_PCT_DR>% Schadensreduktion bis zum Ende der Runde."
 
 [MovingTarget_LW X2AbilityTemplate]
 LocFriendlyName="Bewegtes Ziel"
@@ -6316,12 +6316,12 @@ LocFlyOverText="Überlegene Begabung"
 LocFriendlyName="Volt"
 LocLongDescription="Psionischer Flächenangriff, der Feinde markiert. Verbraucht 1 Fokus. Beendet nicht automatisch die Runde."
 LocHelpText="Psionischer Flächenangriff, der Feinde markiert. Verbraucht 1 Fokus. Beendet nicht automatisch die Runde."
-LocPromotionPopupText="<Bullet/> Volt hat keine Abklingzeit, vebraucht jedoch 1 Fokus.<br/><Bullet/> Verbündete erhalten +<Ability:RECOILAIMBONUS/> % Zielgenauigkeit gegen von Volt markierte Ziele.<br/><Bullet/> Volt kostet eine Aktion und beendet nicht automatisch die Runde.<br/>"
+LocPromotionPopupText="<Bullet/> Volt hat keine Abklingzeit, vebraucht jedoch 1 Fokus.<br/><Bullet/> Verbündete erhalten +<Ability:RECOILAIMBONUS/>% Zielgenauigkeit gegen von Volt markierte Ziele.<br/><Bullet/> Volt kostet eine Aktion und beendet nicht automatisch die Runde.<br/>"
 
 [Amplify X2AbilityTemplate]
 LocFriendlyName="Verstärken"
-LocLongDescription="Markiert ein einzelnes Ziel mit einer psionischen Linse, sodass es <Ability:AmplifyDamageMult/> % zusätzlichen Schaden durch die nächsten 3 Angriffe erleidet. Verbraucht 1 Fokus. Kostenlose Aktion."
-LocHelpText="Markiere ein einzelnes Ziel, sodass es <Ability:AmplifyDamageMult/> % zusätzlichen Schaden durch die nächsten 3 Angriffe erleidet. Verbraucht 1 Fokus. Kostenlose Aktion."
+LocLongDescription="Markiert ein einzelnes Ziel mit einer psionischen Linse, sodass es <Ability:AmplifyDamageMult/>% zusätzlichen Schaden durch die nächsten 3 Angriffe erleidet. Verbraucht 1 Fokus. Kostenlose Aktion."
+LocHelpText="Markiere ein einzelnes Ziel, sodass es <Ability:AmplifyDamageMult/>% zusätzlichen Schaden durch die nächsten 3 Angriffe erleidet. Verbraucht 1 Fokus. Kostenlose Aktion."
 LocHitMessage="Verstärkt"
 LocPromotionPopupText="<Bullet/> Verstärken hält für die nächsten 3 Einzelangriffe an.<br/><Bullet/> Verstärken kostet keine Aktion und hat eine Abklingzeit von <Ability:SelfCooldown_LW/> Runden.<br/>"
 
@@ -6371,10 +6371,10 @@ LocHelpText="Renne zu einem Verbündeten und stabilisiere ihn mit deinem Medikit
 
 [SoulReaper X2AbilityTemplate]
 LocFriendlyName="Verbannen"
-LocLongDescription="Feuere auf ein Ziel, bis dir die Munition ausgeht oder das Ziel stirbt. Die Zielgenauigkeit sinkt um <Ability:BANISH_HIT_MOD/> % pro Schuss. Enthüllt den Schnitter."
-LocHelpText="Feuere auf ein Ziel, bis dir die Munition ausgeht oder das Ziel stirbt. Die Zielgenauigkeit sinkt um <Ability:BANISH_HIT_MOD/> % pro Schuss. Enthüllt den Schnitter."
+LocLongDescription="Feuere auf ein Ziel, bis dir die Munition ausgeht oder das Ziel stirbt. Die Zielgenauigkeit sinkt um <Ability:BANISH_HIT_MOD/>% pro Schuss. Enthüllt den Schnitter."
+LocHelpText="Feuere auf ein Ziel, bis dir die Munition ausgeht oder das Ziel stirbt. Die Zielgenauigkeit sinkt um <Ability:BANISH_HIT_MOD/>% pro Schuss. Enthüllt den Schnitter."
 LocFlyoverText="Banish"
-LocPromotionPopupText="<Bullet/>  Jeder Schuss mit Verbannen hat eine separate Trefferchance.<br/><Bullet/> Die Zielgenauigkeit jedes Schuss ist um <Ability:BANISH_HIT_MOD/> % geringer als die des vorherigen Schusses.<br/><Bullet/> Die Schüsse können kritisch treffen.<br/><Bullet/> Verbannen kann nicht aktiviert werden, wenn nur noch 1 Munitionspunkt übrig ist.<br/>"
+LocPromotionPopupText="<Bullet/>  Jeder Schuss mit Verbannen hat eine separate Trefferchance.<br/><Bullet/> Die Zielgenauigkeit jedes Schuss ist um <Ability:BANISH_HIT_MOD/>% geringer als die des vorherigen Schusses.<br/><Bullet/> Die Schüsse können kritisch treffen.<br/><Bullet/> Verbannen kann nicht aktiviert werden, wenn nur noch 1 Munitionspunkt übrig ist.<br/>"
 
 [TotalCombat X2AbilityTemplate]
 LocFriendlyName="Totalkampf"
@@ -6399,7 +6399,7 @@ LocPromotionPopupText="<Bullet/> Manche Aktionen wie Feuerschutz sind während e
 LocFriendlyName="Reißen"
 LocLongDescription="Nahkampfangriff mit einer Chance, das Ziel zu betäuben oder zu desorientieren. Kann nicht verfehlen. Löst Momentum aus und erzeugt Fokus."
 LocHelpText="Nahkampfangriff mit einer Chance, das Ziel zu betäuben oder zu desorientieren. Löst Momentum aus und erzeugt Fokus."
-LocPromotionPopupText="<Bullet/> Der Einsatz von Reißen ist die primäre Methode des Templers, um Fokus zu generieren.<br/><Bullet/> Nach dem Wirken von Reißen erhält der Templer Momentum, was ihm eine Bewegungsaktion ermöglicht. Setze sie ein, um nach einem Angriff in Deckung zu gelangen.<br/><Bullet/> Reißen hat pro Fokus eine Chance von <Ability:RENDSTUNCHANCE/> %, das Ziel zu betäuben. Betäubte Ziele werden zudem zurückgestoßen.<br/><Bullet/> Reißen hat pro Fokus eine Chance von <Ability:RENDDISORIENTCHANCE/> %, das Ziel zu desorientieren.<br/>"
+LocPromotionPopupText="<Bullet/> Der Einsatz von Reißen ist die primäre Methode des Templers, um Fokus zu generieren.<br/><Bullet/> Nach dem Wirken von Reißen erhält der Templer Momentum, was ihm eine Bewegungsaktion ermöglicht. Setze sie ein, um nach einem Angriff in Deckung zu gelangen.<br/><Bullet/> Reißen hat pro Fokus eine Chance von <Ability:RENDSTUNCHANCE/>%, das Ziel zu betäuben. Betäubte Ziele werden zudem zurückgestoßen.<br/><Bullet/> Reißen hat pro Fokus eine Chance von <Ability:RENDDISORIENTCHANCE/>%, das Ziel zu desorientieren.<br/>"
 
 [ArcWavePassive_LW X2AbilityTemplate]
 LocFriendlyName="Pulswelle"
@@ -6432,24 +6432,24 @@ LocFlyOverText="Unaufhaltbar"
 LocPromotionPopupText="Die Mobilität dieser Einheit kann nicht unter <Ability:UNSTOPPABLE_MIN_MOB> sinken."
 
 [TargetingAimAndCrit X2AbilityTemplate]
-LocLongDescription="Zielsicherheit des Soldaten ist <Ability:TURNSREMAINING/> Runden lang um <Ability:TargetingAimAndCrit_AimBonus/> % und die kritische Trefferchance um <Ability:TargetingAimAndCrit_CritBonus/> % erhöht."
+LocLongDescription="Zielsicherheit des Soldaten ist <Ability:TURNSREMAINING/> Runden lang um <Ability:TargetingAimAndCrit_AimBonus/>% und die kritische Trefferchance um <Ability:TargetingAimAndCrit_CritBonus/>% erhöht."
 
 [TargetingDodge X2AbilityTemplate]
 LocLongDescription="Ausweichen des Soldaten ist <Ability:TURNSREMAINING/> Runde(n) lang um <Ability:TargetingDodge_DodgeBonus/> erhöht."
 
 [TargetingCrit X2AbilityTemplate]
-LocLongDescription="Kritische Trefferchance des Soldaten ist <Ability:TURNSREMAINING/> Runde(n) lang um <Ability:TargetingCrit_CritBonus/> % erhöht."
+LocLongDescription="Kritische Trefferchance des Soldaten ist <Ability:TURNSREMAINING/> Runde(n) lang um <Ability:TargetingCrit_CritBonus/>% erhöht."
 
 [Hypnography X2AbilityTemplate]
-LocLongDescription="Der Wille aller Feinde ist um <Ability:Hypnography_WillBonus/> % reduziert."
+LocLongDescription="Der Wille aller Feinde ist um <Ability:Hypnography_WillBonus/>% reduziert."
 
 [MicroMissiles X2AbilityTemplate]
 LocHelpText="Visiere einen Bereich mit einem explosiven Raketenangriff an."
 
 [FlashbangResistancePassive X2AbilityTemplate]
 LocFriendlyName="Blend-Immunität"
-LocLongDescription="Diese Einheit hat eine Chance von <Ability:FLASHBANG_RESIST_VALUE/> %, von Blendgranaten nicht desorientiert zu werden."
-LocHelpText="Diese Einheit hat eine Chance von <Ability:FLASHBANG_RESIST_VALUE/> %, von Blendgranaten nicht desorientiert zu werden."
+LocLongDescription="Diese Einheit hat eine Chance von <Ability:FLASHBANG_RESIST_VALUE/>%, von Blendgranaten nicht desorientiert zu werden."
+LocHelpText="Diese Einheit hat eine Chance von <Ability:FLASHBANG_RESIST_VALUE/>%, von Blendgranaten nicht desorientiert zu werden."
 
 [Infiltration X2AbilityTemplate]
 LocLongDescription="ADVENT-Sicherheitstürme können diese Einheit nicht sehen, solange sie verborgen oder im Schatten ist."
@@ -6476,7 +6476,7 @@ m_sCritChanceLabel="KRIT"
 LocFriendlyName="Übersteuerung"
 LocLongDescription="Du erhältst in dieser Runde drei Aktionen und keine Aktion beendet deine Runde. Mehrfache Standardschüsse unterliegen einem kleinen Rückstoßabzug."
 LocHelpText="Du erhältst in dieser Runde drei Aktionen und keine Aktion beendet deine Runde. Mehrfache Standardschüsse unterliegen einem kleinen Rückstoßabzug."
-LocPromotionPopupText="<Bullet/> Solange Übersteuerung aktiv ist, wirst du nach jedem Standardschuss mit einem Rückstoßabzug in Höhe von <Ability:Overdrive_RecoilPenalty/> % belegt.<br/><Bullet/> Das Aktivieren von Übersteuerung ist kostenlos, löst jedoch eine Abklingzeit von <Ability:SelfCooldown_LW/> Runden aus.<br/>"
+LocPromotionPopupText="<Bullet/> Solange Übersteuerung aktiv ist, wirst du nach jedem Standardschuss mit einem Rückstoßabzug in Höhe von <Ability:Overdrive_RecoilPenalty/>% belegt.<br/><Bullet/> Das Aktivieren von Übersteuerung ist kostenlos, löst jedoch eine Abklingzeit von <Ability:SelfCooldown_LW/> Runden aus.<br/>"
 
 [Bulwark X2AbilityTemplate]
 LocFriendlyName="Schutzwehr"
@@ -6536,7 +6536,7 @@ LocPromotionPopupText="<Bullet/> Der SPARK erhält +<Ability:Sacrifice_Defense/>
 LocFriendlyName="Adaptive Zielerfassung"
 LocLongDescription="Deine Standardschüsse erleiden keine Rückstoßabzüge, wenn Übersteuerung aktiv ist."
 LocHelpText="Deine Standardschüsse erleiden keine Rückstoßabzüge, wenn Übersteuerung aktiv ist."
-LocPromotionPopupText="<Bullet/> Die Adaptive Zielerfassung hebt den Zielsicherheitsabzug in Höhe von <Ability:Overdrive_RecoilPenalty/> % für aufeinanderfolgende Standardschüsse bei aktivierter Übersteuerung auf.<br/>"
+LocPromotionPopupText="<Bullet/> Die Adaptive Zielerfassung hebt den Zielsicherheitsabzug in Höhe von <Ability:Overdrive_RecoilPenalty/>% für aufeinanderfolgende Standardschüsse bei aktivierter Übersteuerung auf.<br/>"
 
 [Strike X2AbilityTemplate]
 LocFriendlyName="Attacke"
@@ -6558,8 +6558,8 @@ LocPromotionPopupText="<Bullet/> Bombardement kann auf jede Position innerhalb d
 
 [HunterProtocol X2AbilityTemplate]
 LocFriendlyName="Jagdprotokoll"
-LocLongDescription="Wenn ein Feind entdeckt wird, erhältst du mit einer Wahrscheinlichkeit von <Ability:HunterProtocol_Chance/> % einen kostenlosen Feuerschutzschuss."
-LocHelpText="Wenn ein Feind entdeckt wird, erhältst du mit einer Wahrscheinlichkeit von <Ability:HunterProtocol_Chance/> % einen kostenlosen Feuerschutzschuss."
+LocLongDescription="Wenn ein Feind entdeckt wird, erhältst du mit einer Wahrscheinlichkeit von <Ability:HunterProtocol_Chance/>% einen kostenlosen Feuerschutzschuss."
+LocHelpText="Wenn ein Feind entdeckt wird, erhältst du mit einer Wahrscheinlichkeit von <Ability:HunterProtocol_Chance/>% einen kostenlosen Feuerschutzschuss."
 LocPromotionPopupText="<Bullet/> Das Jagdprotokoll macht den SPARK zu einer idealen Einheit für die Erkundung des Kriegsnebels, da jeder entdeckte Feind sofort angegriffen werden kann.<br/>"
 
 [Nova X2AbilityTemplate]
@@ -6614,14 +6614,14 @@ strCharacterName="Gestalt: Schläger"
 
 [TriggerBot X2AbilityTemplate]
 LocFriendlyName="Reaktionsbot"
-LocHelpText="Wenn du von einem Angriff ins Visier genommen wirst, feuere automatisch einmal pro Runde mit deiner <Ability:WeaponName/> zurück. Der Angriff hat einen Schadensabzug von <Ability:TRIGGER_BOT_DAMAGE_PENALTY/> %, trifft aber garantiert."
-LocLongDescription="Wenn du von einem Angriff ins Visier genommen wirst, feuere automatisch einmal pro Runde mit deiner <Ability:WeaponName/> zurück. Der Angriff hat einen Schadensabzug von <Ability:TRIGGER_BOT_DAMAGE_PENALTY/> %, trifft aber garantiert."
+LocHelpText="Wenn du von einem Angriff ins Visier genommen wirst, feuere automatisch einmal pro Runde mit deiner <Ability:WeaponName/> zurück. Der Angriff hat einen Schadensabzug von <Ability:TRIGGER_BOT_DAMAGE_PENALTY/>%, trifft aber garantiert."
+LocLongDescription="Wenn du von einem Angriff ins Visier genommen wirst, feuere automatisch einmal pro Runde mit deiner <Ability:WeaponName/> zurück. Der Angriff hat einen Schadensabzug von <Ability:TRIGGER_BOT_DAMAGE_PENALTY/>%, trifft aber garantiert."
 LocPromotionPopupText="<Bullet/> Reaktionsbot wird nur einmal pro Runde ausgelöst.<br/><Bullet/> Kann durch Nahkampfangriffe und Flächenangriffe ausgelöst werden.<br/><Bullet/> Wird nicht durch Reaktionsfeuer ausgelöst.<br/>"
 
 [TriggerBotShot X2AbilityTemplate]
 LocFriendlyName="Reaktionsbot"
-LocHelpText="Wenn du von einem Angriff ins Visier genommen wirst, feuere automatisch einmal pro Runde mit deiner <Ability:WeaponName/> zurück. Der Angriff hat einen Schadensabzug von <Ability:TRIGGER_BOT_DAMAGE_PENALTY/> %, trifft aber garantiert."
-LocLongDescription="Wenn du von einem Angriff ins Visier genommen wirst, feuere automatisch einmal pro Runde mit deiner <Ability:WeaponName/> zurück. Der Angriff hat einen Schadensabzug von <Ability:TRIGGER_BOT_DAMAGE_PENALTY/> %, trifft aber garantiert."
+LocHelpText="Wenn du von einem Angriff ins Visier genommen wirst, feuere automatisch einmal pro Runde mit deiner <Ability:WeaponName/> zurück. Der Angriff hat einen Schadensabzug von <Ability:TRIGGER_BOT_DAMAGE_PENALTY/>%, trifft aber garantiert."
+LocLongDescription="Wenn du von einem Angriff ins Visier genommen wirst, feuere automatisch einmal pro Runde mit deiner <Ability:WeaponName/> zurück. Der Angriff hat einen Schadensabzug von <Ability:TRIGGER_BOT_DAMAGE_PENALTY/>%, trifft aber garantiert."
 LocPromotionPopupText="<Bullet/> Reaktionsbot wird nur einmal pro Runde ausgelöst.<br/><Bullet/> Kann durch Nahkampfangriffe und Flächenangriffe ausgelöst werden.<br/><Bullet/> Wird nicht durch Reaktionsfeuer ausgelöst.<br/>"
 
 [HunterReactionMobBoost_LW X2AbilityTemplate]
@@ -6693,7 +6693,7 @@ LocLongDescription="Zu Beginn deines Zugs markierst du als freie Aktion einen Ge
 [HeroSlayer_LW X2AbilityTemplate]
 LocFriendlyName="Eliteschlächter"
 LocHelpText="Du verursachst +<Ability:HERO_SLAYER_DMG/>% Schaden gegen Heldenklassen."
-LocLongDescription="Du verursachst +<Ability:HERO_SLAYER_DMG/> % Schaden gegen Heldenklassen."
+LocLongDescription="Du verursachst +<Ability:HERO_SLAYER_DMG/>% Schaden gegen Heldenklassen."
 LocFlyOverText="Eliteschlächter"
 
 [BonusBombard_LW X2AbilityTemplate]
@@ -6735,13 +6735,13 @@ LocHelpText="Die Schadensgrenze wird zu Beginn jeder Runde zurückgesetzt."
 [ImpactCompensationV2XCOM_LW X2AbilityTemplate]
 LocFriendlyName="Verstärkte Schichtrüstung"
 LocFlyOverText="Verstärkte Schichtrüstung"
-LocLongDescription="Diese Einheit kann pro Runde nur <Ability:IMPACT_V2XCOM_DAMAGE_CAP> % ihrer maximalen TP an Schaden erleiden. Schaden über dieser Grenze wird pro Runde um <Ability:IMPACT_V2XCOM_PCT_DR> % reduziert."
+LocLongDescription="Diese Einheit kann pro Runde nur <Ability:IMPACT_V2XCOM_DAMAGE_CAP>% ihrer maximalen TP an Schaden erleiden. Schaden über dieser Grenze wird pro Runde um <Ability:IMPACT_V2XCOM_PCT_DR>% reduziert."
 LocHelpText="Die Schadensgrenze wird zu Beginn jeder Runde zurückgesetzt."
 
 [ImpactCompensationPassiveV2_LW X2AbilityTemplate]
 LocFriendlyName="Verstärkte Schichtrüstung"
 LocFlyOverText="Verstärkte Schichtrüstung"
-LocLongDescription="Diese Einheit kann pro Runde nur <Ability:IMPACT_V2_DAMAGE_CAP> % ihrer maximalen TP an Schaden erleiden. Schaden über dieser Grenze wird pro Runde um <Ability:IMPACT_V2_PCT_DR>% reduziert."
+LocLongDescription="Diese Einheit kann pro Runde nur <Ability:IMPACT_V2_DAMAGE_CAP>% ihrer maximalen TP an Schaden erleiden. Schaden über dieser Grenze wird pro Runde um <Ability:IMPACT_V2_PCT_DR>% reduziert."
 LocHelpText="Die Schadensgrenze wird zu Beginn jeder Runde zurückgesetzt."
 
 [ChainingJolt_LW X2AbilityTemplate]

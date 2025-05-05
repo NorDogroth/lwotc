@@ -524,7 +524,7 @@ m_strADVENTUnitPlural="Legionen"
 
 m_strGlobalAlert="Globale ADVENT-Stärke:"
 m_strGlobalInsurgency="• Globale Widerstandsstärke:"
-m_strAvatarPenalty="• Avatar-Fortschritt um <XGParam:IntValue0/> % verlangsamt"
+m_strAvatarPenalty="• Avatar-Fortschritt um <XGParam:IntValue0/>% verlangsamt"
 m_strThreatVeryLow="Niedrig"
 m_strThreatLow="Wachsam"
 m_strThreatMedium="Erhöht"

@@ -223,23 +223,23 @@ LocPromotionPopupText="<Bullet/> Wenn du als erste Aktion einen Standardschuss m
 [WalkFire X2AbilityTemplate]
 LocFriendlyName="Ruhiger Schuss"
 LocFlyOverText="Ruhiger Schuss"
-LocLongDescription="Feuere einen extrem genauen Schuss mit einem Bonus von +<Ability:WALK_FIRE_AIM_BONUS> Zielsicherheit ab, der jedoch nur <Ability:WALK_FIRE_DMG> % Schaden verursacht und einen Abzug von -<Ability:WALK_FIRE_CRIT_MALUS> auf die kritische Trefferchance erleidet. Verbraucht <Ability:SelfAmmoCost/> Munitionspunkte."
-LocHelpText="Spezialschuss: +<Ability:WALK_FIRE_AIM_BONUS> Zielsicherheit, -<Ability:WALK_FIRE_CRIT_MALUS> kritische Trefferchance, <Ability:WALK_FIRE_DMG> % Schaden, verbraucht <Ability:SelfAmmoCost/> Munitionspunkte"
+LocLongDescription="Feuere einen extrem genauen Schuss mit einem Bonus von +<Ability:WALK_FIRE_AIM_BONUS> Zielsicherheit ab, der jedoch nur <Ability:WALK_FIRE_DMG>% Schaden verursacht und einen Abzug von -<Ability:WALK_FIRE_CRIT_MALUS> auf die kritische Trefferchance erleidet. Verbraucht <Ability:SelfAmmoCost/> Munitionspunkte."
+LocHelpText="Spezialschuss: +<Ability:WALK_FIRE_AIM_BONUS> Zielsicherheit, -<Ability:WALK_FIRE_CRIT_MALUS> kritische Trefferchance, <Ability:WALK_FIRE_DMG>% Schaden, verbraucht <Ability:SelfAmmoCost/> Munitionspunkte"
 LocPromotionPopupText="<Bullet/> Dies ist ein Spezialschuss, bei dem der Soldat das Ziel inmitten eines automatischen Feuerstoßes anpasst, wobei er +<Ability:WALK_FIRE_AIM_BONUS> Zielsicherheit sowie -<Ability:WALK_FIRE_CRIT_MALUS> kritische Trefferchance erhält und nur <Ability:WALK_FIRE_DMG> des normalen Schadens verursacht.<br/><Bullet/> Verbraucht <Ability:SelfAmmoCost/> Munitionspunkte.<br/><Bullet/> Benötigt eine feuerstoßfähige Waffe; die Fähigkeit ist nicht verfügbar, wenn eine Schrotflinte oder ein Präzisionsgewehr als Primärwaffe ausgerüstet ist."
 
 [PrecisionShot X2AbilityTemplate]
 LocFriendlyName="Präzisionsschuss"
 LocFlyOverText="Präzisionsschuss"
-LocLongDescription="Du gibst einen Spezialschuss mit einem Bonus von +<Ability:PRECISION_SHOT_CRIT_BONUS/> auf deine kritische Trefferchance und <Ability:PRECISION_SHOT_CRIT_DAMAGE_MODIFIER/> % kritischem Bonusschaden ab. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
-LocHelpText="Du gibst einen Spezialschuss mit einem Bonus von +<Ability:PRECISION_SHOT_CRIT_BONUS/> auf deine kritische Trefferchance und <Ability:PRECISION_SHOT_CRIT_DAMAGE_MODIFIER/> % kritischem Bonusschaden ab. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
-LocPromotionPopupText="<Bullet/> Du gibst einen Spezialschuss mit einem Bonus von +<Ability:PRECISION_SHOT_CRIT_BONUS/> auf deine kritische Trefferchance und <Ability:PRECISION_SHOT_CRIT_DAMAGE_MODIFIER/> % kritischem Bonusschaden ab.<br/><Bullet/> Hat eine Abklingzeit von <Ability:SelfCooldown_LW/> Runden.<br/>"
+LocLongDescription="Du gibst einen Spezialschuss mit einem Bonus von +<Ability:PRECISION_SHOT_CRIT_BONUS/> auf deine kritische Trefferchance und <Ability:PRECISION_SHOT_CRIT_DAMAGE_MODIFIER/>% kritischem Bonusschaden ab. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
+LocHelpText="Du gibst einen Spezialschuss mit einem Bonus von +<Ability:PRECISION_SHOT_CRIT_BONUS/> auf deine kritische Trefferchance und <Ability:PRECISION_SHOT_CRIT_DAMAGE_MODIFIER/>% kritischem Bonusschaden ab. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
+LocPromotionPopupText="<Bullet/> Du gibst einen Spezialschuss mit einem Bonus von +<Ability:PRECISION_SHOT_CRIT_BONUS/> auf deine kritische Trefferchance und <Ability:PRECISION_SHOT_CRIT_DAMAGE_MODIFIER/>% kritischem Bonusschaden ab.<br/><Bullet/> Hat eine Abklingzeit von <Ability:SelfCooldown_LW/> Runden.<br/>"
 
 [PrecisionShotSnapShot X2AbilityTemplate]
 LocFriendlyName="Präzisionsschuss"
 LocFlyOverText="Präzisionsschuss"
-LocLongDescription="Du gibst einen Spezialschuss mit einem Bonus von +<Ability:PRECISION_SHOT_CRIT_BONUS/> auf deine kritische Trefferchance und <Ability:PRECISION_SHOT_CRIT_DAMAGE_MODIFIER/> % kritischem Bonusschaden ab. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
-LocHelpText="Du gibst einen Spezialschuss mit einem Bonus von +<Ability:PRECISION_SHOT_CRIT_BONUS/> auf deine kritische Trefferchance und <Ability:PRECISION_SHOT_CRIT_DAMAGE_MODIFIER/> % kritischem Bonusschaden ab. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
-LocPromotionPopupText="<Bullet/> Du gibst einen Spezialschuss mit einem Bonus von +<Ability:PRECISION_SHOT_CRIT_BONUS/> auf deine kritische Trefferchance und <Ability:PRECISION_SHOT_CRIT_DAMAGE_MODIFIER/> % kritischem Bonusschaden ab.<br/><Bullet/> Hat eine Abklingzeit von <Ability:SelfCooldown_LW/> Runden.<br/>"
+LocLongDescription="Du gibst einen Spezialschuss mit einem Bonus von +<Ability:PRECISION_SHOT_CRIT_BONUS/> auf deine kritische Trefferchance und <Ability:PRECISION_SHOT_CRIT_DAMAGE_MODIFIER/>% kritischem Bonusschaden ab. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
+LocHelpText="Du gibst einen Spezialschuss mit einem Bonus von +<Ability:PRECISION_SHOT_CRIT_BONUS/> auf deine kritische Trefferchance und <Ability:PRECISION_SHOT_CRIT_DAMAGE_MODIFIER/>% kritischem Bonusschaden ab. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
+LocPromotionPopupText="<Bullet/> Du gibst einen Spezialschuss mit einem Bonus von +<Ability:PRECISION_SHOT_CRIT_BONUS/> auf deine kritische Trefferchance und <Ability:PRECISION_SHOT_CRIT_DAMAGE_MODIFIER/>% kritischem Bonusschaden ab.<br/><Bullet/> Hat eine Abklingzeit von <Ability:SelfCooldown_LW/> Runden.<br/>"
 
 [CyclicFire X2AbilityTemplate]
 LocFriendlyName="Zyklischer Beschuss"
@@ -343,9 +343,9 @@ LocPromotionPopupText="<Bullet/> Nahkampfangriffe gegen organische Feinde ignori
 [KillerInstinct X2AbilityTemplate]
 LocFriendlyName="Killerinstinkt"
 LocFlyOverText="Killerinstinkt"
-LocLongDescription="Das Aktivieren von 'Sturm und Schuss' gewährt für den Rest der Runde einen Bonus von +<Ability:KILLER_INSTINCT_CRIT_DAMAGE_BONUS_PCT/> % auf die kritischer Trefferschaden."
-LocHelpText="Das Aktivieren von 'Sturm und Schuss' gewährt für den Rest der Runde einen Bonus von +<Ability:KILLER_INSTINCT_CRIT_DAMAGE_BONUS_PCT/> % auf die kritischer Trefferschaden."
-LocPromotionPopupText="<Bullet/> Das Aktivieren von 'Sturm und Schuss' gewährt für den Rest der Runde einen Bonus von +<Ability:KILLER_INSTINCT_CRIT_DAMAGE_BONUS_PCT/> % auf die kritischer Trefferschaden.<br/>"
+LocLongDescription="Das Aktivieren von 'Sturm und Schuss' gewährt für den Rest der Runde einen Bonus von +<Ability:KILLER_INSTINCT_CRIT_DAMAGE_BONUS_PCT/>% auf die kritischer Trefferschaden."
+LocHelpText="Das Aktivieren von 'Sturm und Schuss' gewährt für den Rest der Runde einen Bonus von +<Ability:KILLER_INSTINCT_CRIT_DAMAGE_BONUS_PCT/>% auf die kritischer Trefferschaden."
+LocPromotionPopupText="<Bullet/> Das Aktivieren von 'Sturm und Schuss' gewährt für den Rest der Runde einen Bonus von +<Ability:KILLER_INSTINCT_CRIT_DAMAGE_BONUS_PCT/>% auf die kritischer Trefferschaden.<br/>"
 
 [ExtraConditioning X2AbilityTemplate]
 LocFriendlyName="Zusätzliche Konditionierung"
@@ -396,16 +396,16 @@ LocPromotionPopupText="<Bullet/> +<Ability:LOCKDOWN_TOHIT_BONUS/> Trefferchance 
 [Mayhem X2AbilityTemplate]
 LocFriendlyName="Durcheinander"
 LocFlyOverText="Durcheinander"
-LocLongDescription="Du verursachst <Ability:MAYHEM_DAMAGE_BONUS_PCT/> % Bonusschaden gegen unterdrückte Feinde, die sich bewegen."
+LocLongDescription="Du verursachst <Ability:MAYHEM_DAMAGE_BONUS_PCT/>% Bonusschaden gegen unterdrückte Feinde, die sich bewegen."
 LocHelpText="Bonusschaden gegen unterdrückte, sich bewegende Feinde."
-LocPromotionPopupText="<Bullet/> <Ability:MAYHEM_DAMAGE_BONUS_PCT/> % Bonusschaden gegen unterdrückte, sich bewegende Feinde.<br/>"
+LocPromotionPopupText="<Bullet/> <Ability:MAYHEM_DAMAGE_BONUS_PCT/>% Bonusschaden gegen unterdrückte, sich bewegende Feinde.<br/>"
 
 [MayhemBonuses X2AbilityTemplate]
 LocFriendlyName="Durcheinander"
 LocFlyOverText="Durcheinander"
-LocLongDescription="Du verursachst <Ability:MAYHEM_DAMAGE_BONUS_PCT/> % Bonusschaden gegen unterdrückte Feinde, die sich bewegen."
+LocLongDescription="Du verursachst <Ability:MAYHEM_DAMAGE_BONUS_PCT/>% Bonusschaden gegen unterdrückte Feinde, die sich bewegen."
 LocHelpText="Bonusschaden gegen unterdrückte, sich bewegende Feinde."
-LocPromotionPopupText="<Bullet/> <Ability:MAYHEM_DAMAGE_BONUS_PCT/> % Bonusschaden gegen unterdrückte, sich bewegende Feinde.<br/>"
+LocPromotionPopupText="<Bullet/> <Ability:MAYHEM_DAMAGE_BONUS_PCT/>% Bonusschaden gegen unterdrückte, sich bewegende Feinde.<br/>"
 
 [Interference X2AbilityTemplate]
 LocFriendlyName="Störung"
@@ -472,16 +472,16 @@ LocPromotionPopupText="<Bullet/> Per Übernahmeprotokoll gehackte feindliche Ein
 [Covert X2AbilityTemplate]
 LocFriendlyName="Verdeckt"
 LocFlyOverText="Verdeckt"
-LocLongDescription="Der Erkennungsbereich von Feinden ist gegen diese Einheit um <Ability:COVERT_DETECTION_RANGE_REDUCTION/> % reduziert."
+LocLongDescription="Der Erkennungsbereich von Feinden ist gegen diese Einheit um <Ability:COVERT_DETECTION_RANGE_REDUCTION/>% reduziert."
 LocHelpText="Der Erkennungsbereich von Feinden ist gegen diese Einheit reduziert."
-LocPromotionPopupText="<Bullet/> Der Erkennungsbereich von Feinden ist gegen diese Einheit um <Ability:COVERT_DETECTION_RANGE_REDUCTION/> % reduziert. Er wird durch rote Felder rund um Feinde angezeigt, die sich der Anwesenheit dieser Einheit nicht bewusst sind.<br/><Bullet/> Funktioniert nicht bei ADVENT-Geschütztürmen.<br/><Bullet/> Diese Fähigkeit reduziert zudem geringfügig den Einfluss, den der Soldat auf die Infiltrationszeiten hat."
+LocPromotionPopupText="<Bullet/> Der Erkennungsbereich von Feinden ist gegen diese Einheit um <Ability:COVERT_DETECTION_RANGE_REDUCTION/>% reduziert. Er wird durch rote Felder rund um Feinde angezeigt, die sich der Anwesenheit dieser Einheit nicht bewusst sind.<br/><Bullet/> Funktioniert nicht bei ADVENT-Geschütztürmen.<br/><Bullet/> Diese Fähigkeit reduziert zudem geringfügig den Einfluss, den der Soldat auf die Infiltrationszeiten hat."
 
 [Ghostwalker X2AbilityTemplate]
 LocFriendlyName="Geistläufer"
 LocFlyOverText="Geistläufer"
-LocLongDescription="Aktiviere diese Fähigkeit, um den feindlichen Erkennungsbereich für <Ability:GHOSTWALKER_DURATION/> Runden um  <Ability:GHOSTWALKER_DETECTION_RANGE_REDUCTION/> % zu reduzieren."
-LocHelpText="Reduziert den feindlichen Erkennungsbereich <Ability:GHOSTWALKER_DURATION/> Runden lang um <Ability:GHOSTWALKER_DETECTION_RANGE_REDUCTION/> %."
-LocPromotionPopupText="<Bullet/> Aktiviere diese Fähigkeit, um den feindlichen Erkennungsbereich gegen dich für <Ability:GHOSTWALKER_DURATION/> Runden (einschließlich der aktuellen Runde) um <Ability:GHOSTWALKER_DETECTION_RANGE_REDUCTION/> % zu reduzieren. Dies wird durch rote Felder rund um Feinde angezeigt, die sich der Anwesenheit dieser Einheit nicht bewusst sind.<br/><Bullet/> Funktioniert nicht bei ADVENT-Geschütztürmen.<br/><Bullet/> Geistläufer hat eine Abklingzeit von <Ability:SelfCooldown/> Runden und verbraucht keine Aktion.<br/><Bullet/> Diese Fähigkeit reduziert zudem geringfügig den Einfluss, den der Soldat auf die Infiltrationszeiten hat."
+LocLongDescription="Aktiviere diese Fähigkeit, um den feindlichen Erkennungsbereich für <Ability:GHOSTWALKER_DURATION/> Runden um  <Ability:GHOSTWALKER_DETECTION_RANGE_REDUCTION/>% zu reduzieren."
+LocHelpText="Reduziert den feindlichen Erkennungsbereich <Ability:GHOSTWALKER_DURATION/> Runden lang um <Ability:GHOSTWALKER_DETECTION_RANGE_REDUCTION/>%."
+LocPromotionPopupText="<Bullet/> Aktiviere diese Fähigkeit, um den feindlichen Erkennungsbereich gegen dich für <Ability:GHOSTWALKER_DURATION/> Runden (einschließlich der aktuellen Runde) um <Ability:GHOSTWALKER_DETECTION_RANGE_REDUCTION/>% zu reduzieren. Dies wird durch rote Felder rund um Feinde angezeigt, die sich der Anwesenheit dieser Einheit nicht bewusst sind.<br/><Bullet/> Funktioniert nicht bei ADVENT-Geschütztürmen.<br/><Bullet/> Geistläufer hat eine Abklingzeit von <Ability:SelfCooldown/> Runden und verbraucht keine Aktion.<br/><Bullet/> Diese Fähigkeit reduziert zudem geringfügig den Einfluss, den der Soldat auf die Infiltrationszeiten hat."
 
 [Kubikuri X2AbilityTemplate]
 LocFriendlyName="Kubikiri"
@@ -610,7 +610,7 @@ LocFriendlyName="Streifschüsse"
 LocFlyOverText="Streifschüsse"
 LocLongDescription="Deine Fehlschüsse haben eine zusätzliche Chance, das Ziel doch noch mit einem Streifschuss zu treffen."
 LocHelpText="Fehlschüsse können zu Streifschüssen werden."
-LocPromotionPopupText="<Bullet/> Deine Fehlschüsse haben eine Chance von <Ability:GRAZING_FIRE_SUCCESS_CHANCE> %, einen Streifschuss auszulösen.<br/><Bullet/> Dieser Effekt greift nach der normalen Treffer-/Fehlschuss-/Streifschuss-Wertung.<br/><Bullet/> Der Ausweichwert des Ziels reduziert die Erfolgswahrscheinlichkeit der Fähigkeit.<br/><Bullet/> Gilt für alle Waffenangriffe, auch Messer und Schwerter.<br/>"
+LocPromotionPopupText="<Bullet/> Deine Fehlschüsse haben eine Chance von <Ability:GRAZING_FIRE_SUCCESS_CHANCE>%, einen Streifschuss auszulösen.<br/><Bullet/> Dieser Effekt greift nach der normalen Treffer-/Fehlschuss-/Streifschuss-Wertung.<br/><Bullet/> Der Ausweichwert des Ziels reduziert die Erfolgswahrscheinlichkeit der Fähigkeit.<br/><Bullet/> Gilt für alle Waffenangriffe, auch Messer und Schwerter.<br/>"
 
 [HeavyFrags X2AbilityTemplate]
 LocFriendlyName="Verstärkte Kerne"
@@ -671,16 +671,16 @@ LocPromotionPopupText="<Bullet/> Bastion wirkt in einem Radius von <Ability:BAST
 [IronCurtain X2AbilityTemplate]
 LocFriendlyName="Eiserner Vorhang"
 LocFlyOverText="Eiserner Vorhang"
-LocLongDescription="Spezialschuss, der <Ability:IRON_CURTAIN_DAMAGE_MODIFIER/> % des regulären Schadens verursacht, aber die Mobilität des Ziels um <Ability:IRON_CURTAIN_MOBILITY_DAMAGE> für <Ability:IRON_CURTAIN_MOB_DAMAGE_DURATION/> Runde(n) reduziert. Kegelförmiger Angriff mit der Primärwaffe. Die Mobilitätsstrafe wirkt auch bei Fehlschüssen."
+LocLongDescription="Spezialschuss, der <Ability:IRON_CURTAIN_DAMAGE_MODIFIER/>% des regulären Schadens verursacht, aber die Mobilität des Ziels um <Ability:IRON_CURTAIN_MOBILITY_DAMAGE> für <Ability:IRON_CURTAIN_MOB_DAMAGE_DURATION/> Runde(n) reduziert. Kegelförmiger Angriff mit der Primärwaffe. Die Mobilitätsstrafe wirkt auch bei Fehlschüssen."
 LocHelpText="Verursacht wenig Schaden, reduziert aber die Mobilität des Ziels für <Ability:IRON_CURTAIN_MOB_DAMAGE_DURATION/> Runde(n)."
-LocPromotionPopupText="<Bullet/> Verursacht <Ability:IRON_CURTAIN_DAMAGE_MODIFIER/> % Schaden und -<Ability:IRON_CURTAIN_MOBILITY_DAMAGE> Mobilität für <Ability:IRON_CURTAIN_MOB_DAMAGE_DURATION/> Runde(n).<br/><Bullet/> Abklingzeit: <Ability:SelfCooldown_LW/> Runden.<br/><Bullet/> Verbraucht <Ability:IRON_CURTAIN_AMMO_COST> Munition.<br/><Bullet/> Kann nach Bewegung eingesetzt werden.<br/><Bullet/> Funktioniert nicht mit Schrotflinten oder Präzisionsgewehren.<br/><Bullet/> Verbündete im Wirkungsbereich können betroffen sein.<br/><Bullet/> Mobilitätsstrafe gilt auch bei Fehlschuss.<br/>"
+LocPromotionPopupText="<Bullet/> Verursacht <Ability:IRON_CURTAIN_DAMAGE_MODIFIER/>% Schaden und -<Ability:IRON_CURTAIN_MOBILITY_DAMAGE> Mobilität für <Ability:IRON_CURTAIN_MOB_DAMAGE_DURATION/> Runde(n).<br/><Bullet/> Abklingzeit: <Ability:SelfCooldown_LW/> Runden.<br/><Bullet/> Verbraucht <Ability:IRON_CURTAIN_AMMO_COST> Munition.<br/><Bullet/> Kann nach Bewegung eingesetzt werden.<br/><Bullet/> Funktioniert nicht mit Schrotflinten oder Präzisionsgewehren.<br/><Bullet/> Verbündete im Wirkungsbereich können betroffen sein.<br/><Bullet/> Mobilitätsstrafe gilt auch bei Fehlschuss.<br/>"
 
 [IronCurtainShot X2AbilityTemplate]
 LocFriendlyName="Eiserner Vorhang"
 LocFlyOverText="Eiserner Vorhang"
-LocLongDescription="Spezialschuss, der <Ability:IRON_CURTAIN_DAMAGE_MODIFIER/> % des Schadens verursacht und die Mobilität des Ziels um <Ability:IRON_CURTAIN_MOBILITY_DAMAGE> für <Ability:IRON_CURTAIN_MOB_DAMAGE_DURATION/> Runde(n) reduziert. Kegelförmiger Angriff mit der Primärwaffe. Die Mobilitätsstrafe wirkt auch bei Fehlschuss."
+LocLongDescription="Spezialschuss, der <Ability:IRON_CURTAIN_DAMAGE_MODIFIER/>% des Schadens verursacht und die Mobilität des Ziels um <Ability:IRON_CURTAIN_MOBILITY_DAMAGE> für <Ability:IRON_CURTAIN_MOB_DAMAGE_DURATION/> Runde(n) reduziert. Kegelförmiger Angriff mit der Primärwaffe. Die Mobilitätsstrafe wirkt auch bei Fehlschuss."
 LocHelpText="Verursacht wenig Schaden und reduziert die Mobilität des Ziels."
-LocPromotionPopupText="<Bullet/> Verursacht <Ability:IRON_CURTAIN_DAMAGE_MODIFIER/> % Schaden und -<Ability:IRON_CURTAIN_MOBILITY_DAMAGE> Mobilität für <Ability:IRON_CURTAIN_MOB_DAMAGE_DURATION/> Runde(n).<br/><Bullet/> Abklingzeit: <Ability:SelfCooldown_LW/> Runden.<br/><Bullet/> Verbraucht <Ability:IRON_CURTAIN_AMMO_COST> Munition.<br/><Bullet/> Kann nach Bewegung eingesetzt werden.<br/><Bullet/> Funktioniert nicht mit Schrotflinten oder Präzisionsgewehren.<br/><Bullet/> Verbündete im Wirkungsbereich können betroffen sein.<br/><Bullet/> Mobilitätsstrafe wirkt auch bei Fehlschuss.<br/>"
+LocPromotionPopupText="<Bullet/> Verursacht <Ability:IRON_CURTAIN_DAMAGE_MODIFIER/>% Schaden und -<Ability:IRON_CURTAIN_MOBILITY_DAMAGE> Mobilität für <Ability:IRON_CURTAIN_MOB_DAMAGE_DURATION/> Runde(n).<br/><Bullet/> Abklingzeit: <Ability:SelfCooldown_LW/> Runden.<br/><Bullet/> Verbraucht <Ability:IRON_CURTAIN_AMMO_COST> Munition.<br/><Bullet/> Kann nach Bewegung eingesetzt werden.<br/><Bullet/> Funktioniert nicht mit Schrotflinten oder Präzisionsgewehren.<br/><Bullet/> Verbündete im Wirkungsbereich können betroffen sein.<br/><Bullet/> Mobilitätsstrafe wirkt auch bei Fehlschuss.<br/>"
 str_IronCurtainEffect="Eiserner Vorhang"
 
 [Slash_LW X2AbilityTemplate]
@@ -748,9 +748,9 @@ LocPromotionPopupText="<Bullet/> Boni gelten auch, wenn die Einheit in einer Mis
 [Formidable X2AbilityTemplate]
 LocFriendlyName="Formidabel"
 LocFlyOverText="Formidabel"
-LocLongDescription="Deine Ausrüstung verfügt über zusätzliche Polsterung und Sprengschutz. Gewährt <Ability:FORMIDABLE_ABLATIVE_HP/> ablative TP und <Ability:FORMIDABLE_EXPLOSIVES_DR/> % weniger Explosivschaden."
+LocLongDescription="Deine Ausrüstung verfügt über zusätzliche Polsterung und Sprengschutz. Gewährt <Ability:FORMIDABLE_ABLATIVE_HP/> ablative TP und <Ability:FORMIDABLE_EXPLOSIVES_DR/>% weniger Explosivschaden."
 LocHelpText="Erhalte ablative TP und reduzierten Explosivschaden."
-LocPromotionPopupText="<Bullet/> Reduziert Explosivschaden um <Ability:FORMIDABLE_EXPLOSIVES_DR/> % und gewährt <Ability:FORMIDABLE_ABLATIVE_HP/> ablative TP.<br/>"
+LocPromotionPopupText="<Bullet/> Reduziert Explosivschaden um <Ability:FORMIDABLE_EXPLOSIVES_DR/>% und gewährt <Ability:FORMIDABLE_ABLATIVE_HP/> ablative TP.<br/>"
 
 [XComGame.PistolStandardShot X2AbilityTemplate]
 
@@ -1020,7 +1020,7 @@ Summary="Angriffe gegen flankierte Ziele verursachen +<Ability:HUNTERSINSTINCTDM
 
 [HitWhereItHurtsUnlock X2SoldierAbilityUnlockTemplate]
 DisplayName="Scharfschütze (nur Basisspiel-Klasse): Tödlicher Schuss"
-Summary="Um <Ability:HITWHEREITHURTS/> % erhöhte kritische Trefferchance."
+Summary="Um <Ability:HITWHEREITHURTS/>% erhöhte kritische Trefferchance."
 
 [XComGame.CoolUnderPressureUnlock X2SoldierAbilityUnlockTemplate]
 
@@ -1043,10 +1043,10 @@ LocPromotionPopupText="<Bullet/> Fernkampfangriffe gegen flankierte Feinde verur
 
 [HitWhereItHurts X2AbilityTemplate]
 LocFriendlyName="Tödlicher Schuss"
-LocLongDescription="Um <Ability:HITWHEREITHURTS/> % erhöhte kritische Trefferchance."
-LocHelpText="Um <Ability:HITWHEREITHURTS/> % erhöhte kritische Trefferchance."
+LocLongDescription="Um <Ability:HITWHEREITHURTS/>% erhöhte kritische Trefferchance."
+LocHelpText="Um <Ability:HITWHEREITHURTS/>% erhöhte kritische Trefferchance."
 LocFlyOverText="Tödlicher Schuss"
-LocPromotionPopupText="<Bullet/> Um <Ability:HITWHEREITHURTS/> % erhöhte kritische Trefferchance.<br/>"
+LocPromotionPopupText="<Bullet/> Um <Ability:HITWHEREITHURTS/>% erhöhte kritische Trefferchance.<br/>"
 
 [CoolUnderPressure X2AbilityTemplate]
 LocFriendlyName="Druck standhalten"
@@ -1057,10 +1057,10 @@ LocPromotionPopupText="<Bullet/> Du erhältst +<Ability:COOLUNDERPRESSUREBONUS/>
 
 [BiggestBooms X2AbilityTemplate]
 LocFriendlyName="Megakracher"
-LocLongDescription="Deine Explosivangriffe können kritischen Schaden anrichten (<Ability:BIGGESTBOOMSCHANCE/> % Chance auf +<Ability:BIGGESTBOOMSDAMAGE/> Schaden)."
+LocLongDescription="Deine Explosivangriffe können kritischen Schaden anrichten (<Ability:BIGGESTBOOMSCHANCE/>% Chance auf +<Ability:BIGGESTBOOMSDAMAGE/> Schaden)."
 LocHelpText="Deine Explosivangriffe können kritischen Schaden anrichten."
 LocFlyOverText="Megakracher"
-LocPromotionPopupText="<Bullet/> Deine Explosivangriffe können kritischen Schaden anrichten (<Ability:BIGGESTBOOMSCHANCE/> % Chance auf +<Ability:BIGGESTBOOMSDAMAGE/> Schaden).<br/>"
+LocPromotionPopupText="<Bullet/> Deine Explosivangriffe können kritischen Schaden anrichten (<Ability:BIGGESTBOOMSCHANCE/>% Chance auf +<Ability:BIGGESTBOOMSDAMAGE/> Schaden).<br/>"
 
 [RapidFire X2AbilityTemplate]
 LocFriendlyName="Schnellfeuer"
