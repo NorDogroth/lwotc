@@ -6881,15 +6881,15 @@ LocPromotionPopupText="<Bullet/> Die durch 'Aufklärung' bereitgestellten Scanne
 
 [LineEmUp_LW X2AbilityTemplate]
 LocFriendlyName="Priorisiertes Ziel"
-LocLongDescription="Du erhältst <Ability:+ToHit/> Zielbonus und <Ability:+Crit/> Kritchance auf Fernkampfangriffe gegen den nächstgelegenen sichtbaren Gegner."
-LocHelpText="Du erhältst <Ability:+ToHit/> Zielbonus und <Ability:+Crit/> Kritchance auf Fernkampfangriffe gegen den nächstgelegenen sichtbaren Gegner."
+LocLongDescription="Du erhältst <Ability:+ToHit/> Zielbonus und <Ability:+Crit/> kritische Trefferchance auf Fernkampfangriffe gegen den nächstgelegenen sichtbaren Gegner."
+LocHelpText="Du erhältst <Ability:+ToHit/> Zielbonus und <Ability:+Crit/> kritische Trefferchance auf Fernkampfangriffe gegen den nächstgelegenen sichtbaren Gegner."
 LocFlyOverText="Priorisiertes Ziel"
 LocPromotionPopupText="<Bullet/> Wenn mehrere Gegner gleich weit entfernt sind, erhältst du den Bonus gegen alle.<br/><Bullet/> Beeinflusst keine Nahkampfangriffe.<br/>"
 
 [SensorOverlays_LW X2AbilityTemplate]
 LocFriendlyName="Sensorüberlagerung"
-LocLongDescription="Alle Truppmitglieder erhalten <Ability:+Crit/> Kritchance gegen Gegner, die du sehen kannst."
-LocHelpText="Alle Truppmitglieder erhalten <Ability:+Crit/> Kritchance gegen Gegner, die du sehen kannst."
+LocLongDescription="Alle Truppmitglieder erhalten <Ability:+Crit/> kritische Trefferchance gegen Gegner, die du sehen kannst."
+LocHelpText="Alle Truppmitglieder erhalten <Ability:+Crit/> kritische Trefferchance gegen Gegner, die du sehen kannst."
 LocFlyOverText="Sensorüberlagerung"
 LocPromotionPopupText="<Bullet/> Gilt nicht für Gegner, die nur über Weitsicht sichtbar sind.<br/>"
 

@@ -153,8 +153,8 @@ LocPromotionPopupText="<Bullet/> "Kritische Treffer erhalten +1 Schaden für je 
 [HardTarget X2AbilityTemplate]
 LocFriendlyName="Schwieriges Ziel"
 LocFlyOverText="Schwieriges Ziel"
-LocLongDescription="Du erhältst <Ability:HT_DODGE_BONUS_PER_ENEMY/> Ausweichen pro sichtbarem Feind, bis zu einem Maximum von <Ability:HT_MAX_DODGE_BONUS/>."
-LocHelpText="Du erhältst <Ability:HT_DODGE_BONUS_PER_ENEMY/> Ausweichen pro sichtbarem Feind, bis zu einem Maximum von <Ability:HT_MAX_DODGE_BONUS/>."
+LocLongDescription="Du erhältst 5 Ausweichen pro sichtbarem Feind, bis zu einem Maximum von 30."
+LocHelpText="Du erhältst 5 Ausweichen pro sichtbarem Feind, bis zu einem Maximum von 30."
 LocPromotionPopupText="<Bullet/> Feinde, die nur über Truppsicht sichtbar sind, gewähren keinen Bonus.<br/><Bullet/> Kein Bonus, wenn die Einheit brennt, desorientiert, betäubt, in Panik ist oder anderweitig eingeschränkt.<br/>"
 
 [Infighter X2AbilityTemplate]

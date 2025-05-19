@@ -1,8 +1,7 @@
 [XComMultiplayerTacticalUI]
 MutonM2_LW="<Bullet/> Der Muton-Befehlshaber verfügt über sämtliche Fähigkeiten eines regulären Mutons und kann darüber hinaus einen Schlachtruf ausstoßen, der die Fähigkeiten von Verbündeten in seiner Nähe verbessert, sowie Feinde innerhalb seiner Sprintdistanz mit dem Bajonett angreifen.\n<Bullet/> Im Gegensatz zu den Mutons der Invasionszeit sind die neuen Hybrid-Mutons überaus effektiv im Nahkampf.\n<Bullet/> Mit der Fähigkeit 'Gegenangriff' können sie jedem Gegner Schaden zufügen, der sie im Nahkampf angreift.\n<Bullet/> Sie können zudem Feinde in ihrer Nähe 'ausschalten'; du solltest unbedingt vermeiden, dass sich ein Muton einer deiner betäubten Einheiten nähert.\n<Bullet/> Sie können ihr Gewehr auch zum 'Niederhalten' einsetzen und ihre Rüstung bietet anhaltenden Schutz."
 MutonM3_LW="<Bullet/>"
-
-DroneM1="<Bullet/> Die Wächterdrohne ist eine günstige Aufklärungseinheit, die hauptsächlich der Zivilüberwachung und Gruppenkontrolle dient."
+DroneM1="<Bullet/> Die Überwachungsdrohne ist eine günstige Aufklärungseinheit, die hauptsächlich der Zivilüberwachung und Gruppenkontrolle dient."
 
 [CorpseDrone X2ItemTemplate]
 FriendlyName="Drohnenwrack"
@@ -14,8 +13,6 @@ FriendlyName="Elite-Muton-Leiche"
 FriendlyNamePlural="Elite-Muton-Leichen"
 BriefSummary="Diese Aliens befinden sich an der Spitze der internen Muton-Hierarchie. Im Gegensatz zu den Befehlshabern, weisen diese erhebliche genetische Modifikationen auf im Vergleich zu den herkömmlichen Mutons, denen wir soweit begegnet sind."
 
-;;;;;;;;;;;;;;;;;;;;;;;;;; NEW ABILITIES ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
 [WarCry X2AbilityTemplate]
 LocFriendlyName="Schlachtruf"
 LocLongDescription="Gewährt anderen Mutons große Zielsicherheits-, Willens- und Mobilitätsboni und geringere Boni für andere intelligente Aliens und ADVENT-Einheiten. Abklingzeit von 6 Runden."
@@ -24,10 +21,10 @@ LocFlyOverText="Schlachtruf"
 LocPromotionPopupText="<Bullet/> Gewährt anderen Mutons große Zielsicherheits-, Willens- und Mobilitätsboni und geringere Boni für andere intelligente Aliens und ADVENT-Einheiten.<br/><Bullet/> Abklingzeit von 6 Runden.<br/>"
 
 [BayonetCharge X2AbilityTemplate]
-LocFriendlyName="Bajonett-Ladung"
+LocFriendlyName="Bajonett-Ansturm"
 LocLongDescription="Ermöglicht einen Nahkampfangriff innerhalb der Sprintdistanz. Abklingzeit von vier Runden."
 LocHelpText="Ermöglicht einen Nahkampfangriff innerhalb der Sprintdistanz."
-LocFlyOverText="Bajonett-Ladung"
+LocFlyOverText="Bajonett-Ansturm"
 LocPromotionPopupText="<Bullet/> Ermöglicht einen Nahkampfangriff innerhalb der Sprintdistanz.<br/><Bullet/> Abklingzeit von 4 Runden.<br/>"
 
 [Beastmaster_LW X2AbilityTemplate]
@@ -109,8 +106,6 @@ LocLongDescription="Wenn du Schaden nimmst, erhältst du bis zum Ende der nächs
 LocHelpText="Wenn du Schaden nimmst, erhältst du bis zum Ende der nächsten Runde zwei zusätzliche Rüstungspunkte."
 LocPromotionPopupText="<Bullet/> Wenn du Schaden nimmst, erhältst du bis zum Ende der nächsten Runde zwei zusätzliche Rüstungspunkte.<br/><Bullet/> Das Erleiden mehrerer Treffer in aufeinanderfolgenden Runden verlängert die Dauer.<br/>"
 
-;;;;;;;;;;;;;;;;;;;;;;;;;; MutonM2_LW ;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
 [X2Ability_MutonM2_Abilities]
 strBayonetChargePenalty="Befehlshaber erleidet <XGParam:IntValue0/> Runden lang einen Abzug in Höhe von <XGParam:IntValue1/> auf seine Verteidigung."
 
@@ -124,19 +119,17 @@ TacticalText="<Bullet/> Das Abfeuern der Primärwaffe beendet immer die Runde ei
 AbilityDescName="Plasmagewehr"
 
 [MutonM2_LWGrenade X2GrenadeTemplate]
-FriendlyName="Alien-Granate"
-FriendlyNamePlural="Alien-Granaten"
+FriendlyName="Aliengranate"
+FriendlyNamePlural="Aliengranaten"
 BriefSummary="Jeder Muton-Befehlshaber trägt eine einzelne Plasmagranate mit hohem Schaden bei sich."
 TacticalText="<Bullet/> Eine einzelne Granate mit hohem Schaden."
-ThrownAbilityName="Alien-Granate werfen"
-ThrownAbilityHelpText="Wirf eine Alien-Granate in den Zielbereich."
-LaunchedAbilityName="Alien-Granate abfeuern"
-LaunchedAbilityHelpText="Feuere eine Alien-Granate in den Zielbereich. Zerfetzt Rüstung."
+ThrownAbilityName="Aliengranate werfen"
+ThrownAbilityHelpText="Wirf eine Aliengranate in den Zielbereich."
+LaunchedAbilityName="Aliengranate abfeuern"
+LaunchedAbilityHelpText="Feuere eine Aliengranate in den Zielbereich. Zerfetzt Rüstung."
 
 [MutonM2_LW_MeleeAttack X2WeaponTemplate]
 FriendlyName="Bajonett"
-
-;;;;;;;;;;;;;;;;;;;;;;;;;; MutonM3_LW ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 [MutonM3_LW X2CharacterTemplate]
 strCharacterName="Elite-Muton"
@@ -146,25 +139,23 @@ FriendlyName="Elite-Plasmakanone"
 AbilityDescName="Plasmakanone"
 
 [MutonM3_LWGrenade X2GrenadeTemplate]
-FriendlyName="Alien-Granate"
-FriendlyNamePlural="Alien-Granaten"
+FriendlyName="Aliengranate"
+FriendlyNamePlural="Aliengranaten"
 BriefSummary="Jeder Elite-Muton trägt eine einzelne Plasmagranate, die großen Schaden verursacht."
 TacticalText="<Bullet/> Eine einzelne Granate mit hohem Schaden."
-ThrownAbilityName="Alien-Granate werfen"
-ThrownAbilityHelpText="Wirf eine Alien-Granate in den Zielbereich."
-LaunchedAbilityName="Alien-Granate abfeuern"
-LaunchedAbilityHelpText="Feuere eine Alien-Granate in den Zielbereich. Zerfetzt Rüstung."
-
-;;;;;;;;;;;;;;;;;;;;;;;;;; Naja ;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ThrownAbilityName="Aliengranate werfen"
+ThrownAbilityHelpText="Wirf eine Aliengranate in den Zielbereich."
+LaunchedAbilityName="Aliengranate abfeuern"
+LaunchedAbilityHelpText="Feuere eine Aliengranate in den Zielbereich. Zerfetzt Rüstung."
 
 [NajaM1 X2CharacterTemplate]
 strCharacterName="Naja"
 
 [NajaM2 X2CharacterTemplate]
-strCharacterName="Naja Serpens"
+strCharacterName="Gefährliche Naja"
 
 [NajaM3 X2CharacterTemplate]
-strCharacterName="Elite-Naja"
+strCharacterName="Tödliche Naja"
 
 [NajaM1_WPN X2WeaponTemplate]
 FriendlyName="Naja-Präzisionsgewehr"
@@ -178,16 +169,14 @@ AbilityDescName="Präzisionsgewehr"
 FriendlyName="Naja-Präzisionsgewehr"
 AbilityDescName="Präzisionsgewehr"
 
-;;;;;;;;;;;;;;;;;;;;;;;;;; Sidewinder ;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
 [SidewinderM1 X2CharacterTemplate]
 strCharacterName="Seitenwinder"
 
 [SidewinderM2 X2CharacterTemplate]
-strCharacterName="Seitenwinder Serpens"
+strCharacterName="Gefährlicher Seitenwinder"
 
 [SidewinderM3 X2CharacterTemplate]
-strCharacterName="Elite-Seitenwinder"
+strCharacterName="Tödlicher Seitenwinder"
 
 [SidewinderM1_WPN X2WeaponTemplate]
 FriendlyName="Seitenwinder-Störkanone"
@@ -201,13 +190,11 @@ AbilityDescName="Störkanone"
 FriendlyName="Seitenwinder-Störkanone"
 AbilityDescName="Störkanone"
 
-;;;;;;;;;;;;;;;;;;;;;;;;;; Viper ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
 [ViperM2_LW X2CharacterTemplate]
-strCharacterName="Viper Serpens"
+strCharacterName="Gefährliche Viper"
 
 [ViperM3_LW X2CharacterTemplate]
-strCharacterName="Elite-Viper"
+strCharacterName="Tödliche Viper"
 
 [ViperM2_LW_WPN X2WeaponTemplate]
 FriendlyName="Strahlengewehr"
@@ -217,17 +204,11 @@ AbilityDescName="Plasmagewehr"
 FriendlyName="Strahlengewehr"
 AbilityDescName="Plasmagewehr"
 
-;;;;;;;;;;;;;;;;;;;;;;;;;; ArchonM2_LW ;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
 [ArchonM2_LW X2CharacterTemplate]
 strCharacterName="Großer Archon"
 
-;;;;;;;;;;;;;;;;;;;;;;;;;; SectoidM2_LW ;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
 [SectoidM2_LW X2CharacterTemplate]
 strCharacterName="Sektoiden-Anführer"
-
-;;;;;;;;;;;;;;;;;;;;;;;;;; AdvGunnerM1 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 [AdvGunnerM1 X2CharacterTemplate]
 strCharacterName="ADVENT-Schütze"
@@ -250,9 +231,6 @@ strCharacterName="ADVENT-Eliteschütze"
 FriendlyName="Automatisches Magnetgewehr"
 AbilityDescName="Kanone"
 
-
-;;;;;;;;;;;;;;;;;;;;;;;;;; AdvSentryM1-3 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
 [AdvSentryM1 X2CharacterTemplate]
 strCharacterName="ADVENT-Hüter"
 
@@ -273,8 +251,6 @@ strCharacterName="ADVENT-Sentinel"
 [AdvSentryM3_WPN X2WeaponTemplate]
 FriendlyName="ADVENT-Magnetgewehr"
 AbilityDescName="Magnetgewehr"
-
-;;;;;;;;;;;;;;;;;;;;;;;;;; AdvGrenadierM1-3 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 [AdvGrenadierM1 X2CharacterTemplate]
 strCharacterName="ADVENT-Ingenieur"
@@ -324,8 +300,6 @@ ThrownAbilityHelpText="Erzeugt Säurelachen, die Einheiten Schaden zufügen."
 LaunchedAbilityname="Säuregranate abfeuern"
 LaunchedAbilityHelpText="Erzeugt Säurelachen, die Einheiten Schaden zufügen."
 
-;;;;;;;;;;;;;;;;;;;;;;;;;; AdvRocketeerM1-3 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
 [AdvRocketeerM1 X2CharacterTemplate]
 strCharacterName="ADVENT-Raketenschütze"
 
@@ -333,17 +307,13 @@ strCharacterName="ADVENT-Raketenschütze"
 strCharacterName="Schwerer ADVENT-Raketenschütze"
 
 [AdvRocketeerM3 X2CharacterTemplate]
-strCharacterName="ADVENT-Elite-Raketenschütze"
+strCharacterName="Elite-Raketenschütze"
 
 [AdvRocketeerM1_RocketLauncher X2WeaponTemplate]
 FriendlyName="ADVENT-Raketenwerfer"
 
-;;;;;;;;;;;;;;;;;;;;;;;;;; AdvMecM3 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
 [AdvMec_M3_LW X2CharacterTemplate]
 strCharacterName="Superschwerer MECH"
-
-;;;;;;;;;;;;;;;;;;;;;;;;;; DroneM1-2 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 [LWDroneM1 X2CharacterTemplate]
 strCharacterName="ADVENT-Überwachungsdrohne"
@@ -359,10 +329,8 @@ AbilityDescName="Schockwaffe"
 FriendlyName="Drohnen-Elektroschocker"
 AbilityDescName="Schockwaffe"
 
-;;;;;;;;;;;;;;;;;;;;;;;;;; AdvMecArcherM1 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
 [AdvMECArcherM1 X2CharacterTemplate]
-strCharacterName="MECH-Artillerie"
+strCharacterName="Raketen-MECH"
 
 [AdvMECArcher_WPN X2WeaponTemplate]
 FriendlyName="MECH-Mini-Magnetwaffe"
@@ -372,12 +340,8 @@ AbilityDescName="Minigewehr"
 FriendlyName="Raketengeschütz"
 AbilityDescName="Mikroraketen"
 
-;;;;;;;;;;;;;;;;;;;;;;;;;; AdvMecArcherM2 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
 [AdvMECArcherM2 X2CharacterTemplate]
-strCharacterName="MECH-Langbogen"
-
-;;;;;;;;;;;;;;;;;;;;;;;;;; Chryssalid Soldier ;;;;;;;;;;;;;;;;;;;;;;;;;;;
+strCharacterName="Schwerer Raketen-MECH"
 
 [ChryssalidSoldier X2CharacterTemplate]
 strCharacterName="Chryssaliden-Soldat"
@@ -387,8 +351,6 @@ LocFriendlyName="Chryssaliden-Soldaten-Schlitzer"
 LocLongDescription="Ein Nahkampfangriff, der das Ziel vergiften kann."
 LocHelpText="Greife ein Nahkampfziel mit deinen Krallen an und vergifte es möglicherweise."
 
-;;;;;;;;;;;;;;;;;;;;;;;;;; Hive Queen ;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
 [HiveQueen X2CharacterTemplate]
 strCharacterName="Schwarmkönigin"
 
@@ -397,17 +359,15 @@ LocFriendlyName="Großer Chryssaliden-Schlitzer"
 LocLongDescription="Ein Nahkampfangriff, der das Ziel vergiften kann."
 LocHelpText="Greife ein Nahkampfziel mit deinen Krallen an und vergifte es möglicherweise."
 
-;;;;;;;;;;;;;;;;;;;;;;;;; Additional ADVENT Trooper types ;;;;;;;;;;;;;;;;;;;;;;;;
-
 [AdvSergeantM1 X2CharacterTemplate]
-strCharacterName="ADVENT-Sergeant"
+strCharacterName="ADVENT-Feldwebel"
 
 [AdvSergeantM1_WPN X2WeaponTemplate]
 FriendlyName="ADVENT-Magnetgewehr"
 AbilityDescName="Magnetgewehr"
 
 [AdvSergeantM2 X2CharacterTemplate]
-strCharacterName="ADVENT-First-Sergeant"
+strCharacterName="ADVENT-Oberfeldwebel"
 
 [AdvSergeantM2_WPN X2WeaponTemplate]
 FriendlyName="ADVENT-Magnetgewehr"
@@ -421,7 +381,7 @@ FriendlyName="ADVENT-Magnetgewehr"
 AbilityDescName="Magnetgewehr"
 
 [AdvCommando X2CharacterTemplate]
-strCharacterName="ADVENT-Kommando"
+strCharacterName="ADVENT-Kommandosoldat"
 
 [AdvCommando_WPN X2WeaponTemplate]
 FriendlyName="ADVENT-Magnetgewehr"
@@ -454,3 +414,10 @@ strCharacterName="ADVENT-General"
 [AdvGeneralM2_LW_WPN X2WeaponTemplate]
 FriendlyName="ADVENT-Magnetgewehr"
 AbilityDescName="Magnetgewehr"
+
+[Archon_WPN X2WeaponTemplate]
+AbilityDescName="Stab"
+
+[AdvHeavyEngineer X2CharacterTemplate]
+strCharacterName="Elite-Ingenieur"
+
